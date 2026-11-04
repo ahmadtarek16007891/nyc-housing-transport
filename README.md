@@ -13,7 +13,7 @@
 ## Team contributions
 | Member | ID | Contribution |
 |---|---|---|
-| Member 1 | | Housing EDA and cleaning, housing_clean.csv, research questions 1-2, charts 1-2 |
+| Member 1 | 16007891 | Housing EDA and cleaning, housing_clean.csv, research questions 1-2, charts 1-2 |
 | Member 2 | | |
 | Member 3 | | |
 | Member 4 | | |
