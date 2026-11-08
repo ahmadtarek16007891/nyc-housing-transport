@@ -6,6 +6,8 @@ import plotly.graph_objects as go
 from dash import Dash, Input, Output, State, dcc, html, no_update, ALL, ctx
 
 import config
+from search_parser import parse_query
+from story_section import STORY_CONTENT
 from chart_loader import build_chart_figure, discover_charts
 
 logging.basicConfig(
@@ -146,6 +148,14 @@ app.layout = html.Div(
                         make_filter_bar(),
                         html.Div(
                             [
+                                dcc.Input(id="search-input", type="text", debounce=True, className="search-input",
+                                          placeholder='Search, e.g. "Brooklyn 2022 new buildings", then press Enter'),
+                                html.Button("Apply search", id="search-button", n_clicks=0, className="secondary-button"),
+                                html.Div(id="search-feedback", className="report-hint"),
+                            ], className="search-row",
+                        ),
+                        html.Div(
+                            [
                                 html.Div("Configure filters above, then apply them to refresh your dashboard.", className="report-hint"),
                                 html.Button("Generate Report", id="generate-report-button", n_clicks=0, className="primary-button"),
                             ], className="report-action-row",
@@ -161,7 +171,8 @@ app.layout = html.Div(
                         ),
                         html.Div(id="empty-results-message", className="empty-results"),
                     ], className="visualization-section",
-                )
+                ),
+                html.Section(STORY_CONTENT, className="story-section", id="story"),
             ], className="page-content",
         ),
         html.Footer("NYC Housing & Transportation Dashboard • Milestone 1"),
@@ -199,6 +210,29 @@ app.layout = html.Div(
     ],
     className="app-shell",
 )
+
+
+@app.callback(
+    Output("borough-filter", "value"),
+    Output("year-filter", "value"),
+    Output("housing-category-filter", "value"),
+    Output("transportation-category-filter", "value"),
+    Output("search-feedback", "children"),
+    Input("search-input", "value"),
+    Input("search-button", "n_clicks"),
+    prevent_initial_call=True,
+)
+def apply_search(query, _clicks):
+    """Fill the dropdowns from the typed query. Charts update only on Generate Report."""
+    filters, found = parse_query(query)
+    if not (query or "").strip():
+        message = "Filters reset."
+    elif not found:
+        message = "No filters recognized. Try a borough, a year (2022-2025) or words like new buildings, fatal."
+    else:
+        message = "Applied: " + ", ".join(found) + ". Click Generate Report."
+    return (filters["borough"], filters["year"], filters["housing_category"],
+            filters["transportation_category"], message)
 
 
 def apply_filters(dataframe, filters):
