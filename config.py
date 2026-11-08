@@ -9,17 +9,17 @@ ROOT_DIR = Path(__file__).resolve().parent
 DATA_PATH = ROOT_DIR / "data" / "clean" / "integrated_zip_year.csv"
 CHARTS_DIR = ROOT_DIR / "charts"
 
-# Placeholder integrated-data schema.
+# Integrated-data schema (Member 3, see data/clean/data_dictionary.md).
 ZIP_COLUMN = "zip_code"
 BOROUGH_COLUMN = "borough"
 YEAR_COLUMN = "year"
 
-HOUSING_METRIC_1_COLUMN = "housing_metric_1"
-HOUSING_METRIC_2_COLUMN = "housing_metric_2"
+HOUSING_METRIC_1_COLUMN = "total_units"
+HOUSING_METRIC_2_COLUMN = "deeply_affordable_units"
 HOUSING_CATEGORY_COLUMN = "housing_category"
 
-TRANSPORT_METRIC_1_COLUMN = "transport_metric_1"
-TRANSPORT_METRIC_2_COLUMN = "transport_metric_2"
+TRANSPORT_METRIC_1_COLUMN = "crash_count"
+TRANSPORT_METRIC_2_COLUMN = "crashes_per_100_units"
 TRANSPORT_CATEGORY_COLUMN = "transport_category"
 
 # Central mapping used by the dropdown filters.
@@ -45,5 +45,5 @@ EXPECTED_COLUMNS = [
 
 BOROUGHS = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island"]
 YEARS = [2022, 2023, 2024, 2025]
-HOUSING_CATEGORIES = ["New construction", "Renovation", "Affordable housing"]
-TRANSPORT_CATEGORIES = ["Subway", "Bus", "Cycling", "Traffic safety"]
+HOUSING_CATEGORIES = ["New Construction", "Preservation", "No completions"]
+TRANSPORT_CATEGORIES = ["Fatal crash recorded", "Serious injuries only", "No serious crashes"]
