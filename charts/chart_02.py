@@ -1,54 +1,46 @@
-"""Chart 02: Yearly Trend of Units and Crashes."""
+"""Chart 02 (Member 1): yearly trend of affordable units and crashes."""
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+
 import config
 
 TITLE = "Yearly Trend Analysis"
 QUESTION = "Do crashes rise or fall in years when more affordable units are completed?"
 
+
+def _empty_figure(message="No data available for this selection.") -> go.Figure:
+    figure = go.Figure()
+    figure.add_annotation(text=message, x=0.5, y=0.5, xref="paper", yref="paper",
+                          showarrow=False, font={"size": 15, "color": "#64748b"})
+    figure.update_layout(template="plotly_white", xaxis={"visible": False}, yaxis={"visible": False})
+    return figure
+
+
 def build_figure(df, filters):
-    """Q2: City totals with units as bars and crashes as a line on a second axis."""
+    needed = [config.YEAR_COLUMN, "total_units", "crash_count"]
     if df.empty:
-        fig = go.Figure()
-        fig.add_annotation(text="No data for the selected filters", showarrow=False)
-        return fig
+        return _empty_figure()
+    if not all(c in df.columns for c in needed):
+        return _empty_figure("Required columns are missing.")
 
-    year_col = config.YEAR_COLUMN
-    units_col = config.HOUSING_METRIC_1_COLUMN
-    crashes_col = config.TRANSPORT_METRIC_1_COLUMN
+    yearly = (df.groupby(config.YEAR_COLUMN, as_index=False)
+                .agg(total_units=("total_units", "sum"), crash_count=("crash_count", "sum")))
 
-    if not all(c in df.columns for c in [year_col, units_col, crashes_col]):
-        fig = go.Figure()
-        fig.add_annotation(text="Data schema mismatch.", showarrow=False)
-        return fig
-
-    d = df.groupby(year_col, as_index=False).agg(
-        total_units=(units_col, 'sum'),
-        crash_count=(crashes_col, 'sum')
-    )
-    
-    fig = make_subplots(specs=[[{'secondary_y': True}]])
-    
-    fig.add_bar(
-        x=d[year_col], y=d['total_units'], 
-        name='Affordable units completed', 
-        secondary_y=False,
-        marker_color="#4f46e5"
-    )
-    fig.add_scatter(
-        x=d[year_col], y=d['crash_count'], 
-        name='SIRTA crashes', 
-        mode='lines+markers',
-        secondary_y=True,
-        line=dict(color="#e11d48", width=3)
-    )
-    
+    fig = make_subplots(specs=[[{"secondary_y": True}]])
+    fig.add_bar(x=yearly[config.YEAR_COLUMN], y=yearly["total_units"],
+                name="Affordable units completed", marker_color="#4f46e5", secondary_y=False)
+    fig.add_scatter(x=yearly[config.YEAR_COLUMN], y=yearly["crash_count"],
+                    name="Serious crashes", mode="lines+markers",
+                    line=dict(color="#e11d48", width=3), secondary_y=True)
     fig.update_layout(
-        hovermode='x unified',
-        margin=dict(t=10, b=10, l=10, r=10),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
-    )
-    fig.update_yaxes(title_text='Total Units', secondary_y=False)
-    fig.update_yaxes(title_text='Crash Count', secondary_y=True)
-    
+        template="plotly_white", hovermode="x unified",
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1))
+    fig.update_xaxes(type="category")  # whole years only, no 2022.5 ticks
+    # Both axes start at zero so neither trend is exaggerated
+    fig.update_yaxes(title_text="Units completed", rangemode="tozero", secondary_y=False)
+    fig.update_yaxes(title_text="Serious crashes", rangemode="tozero", secondary_y=True)
+    fig.add_annotation(
+        text="Only a few years of data: shows co-movement, not cause",
+        xref="paper", yref="paper", x=0.01, y=0.01, xanchor="left", yanchor="bottom",
+        showarrow=False, font={"size": 10, "color": "#64748b"})
     return fig

@@ -1,6 +1,5 @@
 """NYC Housing & Transportation interactive dashboard."""
 import logging
-import copy # Used to perfectly duplicate and resize the chart for the modal
 
 import pandas as pd
 import plotly.graph_objects as go
@@ -8,8 +7,6 @@ from dash import Dash, Input, Output, State, dcc, html, no_update, ALL, ctx
 
 import config
 from chart_loader import build_chart_figure, discover_charts
-from mock_data import create_mock_data
-from search_parser import parse_query
 
 logging.basicConfig(
     level=logging.INFO,
@@ -39,22 +36,32 @@ def normalize_dataframe(dataframe: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def load_startup_data():
-    if config.DATA_PATH.exists():
-        try:
-            logger.info("Loading integrated dataset from %s", config.DATA_PATH)
-            real_df = pd.read_csv(config.DATA_PATH, dtype={config.ZIP_COLUMN: "string"}, low_memory=False)
-            return normalize_dataframe(real_df), False
-        except Exception:
-            logger.exception("Could not load the integrated CSV; using mock data.")
-
-    logger.warning("Integrated CSV not found. The app is using mock data.")
-    return normalize_dataframe(create_mock_data()), True
+def load_startup_data() -> pd.DataFrame:
+    """Load the real integrated dataset (fails loudly if the file is missing)."""
+    logger.info("Loading integrated dataset from %s", config.DATA_PATH)
+    real_df = pd.read_csv(config.DATA_PATH, dtype={config.ZIP_COLUMN: "string"}, low_memory=False)
+    return normalize_dataframe(real_df)
 
 
-DATA, USING_MOCK_DATA = load_startup_data()
+DATA = load_startup_data()
 CHART_SPECS = discover_charts()
 
+
+COLORWAY = ["#6366f1", "#ec4899", "#14b8a6", "#f59e0b", "#8b5cf6"]
+
+
+def style_figure(figure: go.Figure) -> go.Figure:
+    """Apply the dashboard theme to any chart. The card header already shows the
+    chart title, so the in-figure title is removed to stop it overlapping the plot."""
+    figure.update_layout(
+        title=None,
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(family="Inter, sans-serif", color="#0f172a"),
+        margin=dict(l=10, r=10, t=20, b=10),
+        colorway=COLORWAY,
+    )
+    return figure
 
 def dropdown_options(column_name: str):
     if column_name not in DATA.columns:
@@ -95,15 +102,7 @@ def make_filter_bar():
 def make_chart_cards():
     cards = []
     for chart_spec in CHART_SPECS:
-        initial_figure = build_chart_figure(chart_spec, DATA, {})
-        initial_figure.update_layout(
-            paper_bgcolor='rgba(0,0,0,0)', 
-            plot_bgcolor='rgba(0,0,0,0)',
-            font=dict(family="Inter, sans-serif", color="#0f172a"),
-            margin=dict(l=10, r=10, t=20, b=10),
-            # Default Plotly colors to match new vibrant theme
-            colorway=["#6366f1", "#ec4899", "#14b8a6", "#f59e0b", "#8b5cf6"]
-        )
+        initial_figure = style_figure(build_chart_figure(chart_spec, DATA, {}))
         
         cards.append(
             html.Div(
@@ -137,7 +136,6 @@ app.layout = html.Div(
                     html.H1("Housing & Transportation"),
                     html.P("Explore how neighborhood development and transportation patterns intersect across New York City.", className="page-subtitle"),
                 ], className="header-titles"),
-                html.Div(["⚠️ Using Mock Data"] if USING_MOCK_DATA else "", id="mock-data-banner", className="mock-data-banner" if USING_MOCK_DATA else "hidden"),
             ], className="page-header",
         ),
         html.Main(
@@ -146,13 +144,6 @@ app.layout = html.Div(
                     [
                         html.H2("Global Filters"),
                         make_filter_bar(),
-                        html.Div(
-                            [
-                                dcc.Input(id="search-input", type="text", placeholder='Try searching "Brooklyn 2022 new buildings"...', debounce=False, className="search-input"),
-                                html.Button("Parse Search", id="search-button", n_clicks=0, className="secondary-button"),
-                                html.Div(id="search-feedback", className="search-feedback"),
-                            ], className="search-row",
-                        ),
                         html.Div(
                             [
                                 html.Div("Configure filters above, then apply them to refresh your dashboard.", className="report-hint"),
@@ -170,19 +161,10 @@ app.layout = html.Div(
                         ),
                         html.Div(id="empty-results-message", className="empty-results"),
                     ], className="visualization-section",
-                ),
-                html.Section(
-                    [
-                        html.H2("Project Overview"),
-                        html.Div([
-                            html.H3("Research Question"), html.P("How do housing and development patterns relate to transportation activity across NYC ZIP codes and years?"),
-                            html.H3("Data Integration"), html.P("The project combines one housing dataset and one transportation dataset at ZIP-code-by-year granularity."),
-                        ], className="story-content"),
-                    ], className="story-section",
-                ),
+                )
             ], className="page-content",
         ),
-        html.Footer("NYC Housing & Transportation Dashboard • Phase 1 Deliverable"),
+        html.Footer("NYC Housing & Transportation Dashboard • Milestone 1"),
         
         # --- THE FIX: Modal Component Structure ---
         html.Div(
@@ -228,31 +210,16 @@ def apply_filters(dataframe, filters):
         if column_name in filtered.columns and selected not in (None, "", config.ALL_VALUE):
             filtered = filtered[filtered[column_name].astype(str) == str(selected)]
     selected_years = filters.get("year", [config.ALL_VALUE])
-    if selected_years is None: selected_years = [config.ALL_VALUE]
-    if not isinstance(selected_years, list): selected_years = [selected_years]
-    if config.YEAR_COLUMN in filtered.columns and selected_years and config.ALL_VALUE not in selected_years:
-        numeric_years = pd.to_numeric(pd.Series(selected_years), errors="coerce").dropna()
-        filtered = filtered[filtered[config.YEAR_COLUMN].isin(numeric_years.astype(int))]
+    if selected_years is None:
+        selected_years = [config.ALL_VALUE]
+    if not isinstance(selected_years, list):
+        selected_years = [selected_years]
+    # If real years are picked alongside "All", the real years win
+    real_years = [y for y in selected_years if y != config.ALL_VALUE]
+    if config.YEAR_COLUMN in filtered.columns and real_years:
+        numeric_years = pd.to_numeric(pd.Series(real_years), errors="coerce").dropna().astype(int)
+        filtered = filtered[filtered[config.YEAR_COLUMN].isin(numeric_years)]
     return filtered
-
-
-@app.callback(
-    Output("borough-filter", "value"), Output("year-filter", "value"), Output("housing-category-filter", "value"),
-    Output("transportation-category-filter", "value"), Output("search-feedback", "children"),
-    Input("search-button", "n_clicks"), State("search-input", "value"), prevent_initial_call=True,
-)
-def apply_search_query(_n_clicks, query):
-    if not query or not query.strip(): return (no_update, no_update, no_update, no_update, "Enter a search query first.")
-    parsed = parse_query(query)
-    borough = parsed.get("borough", config.ALL_VALUE)
-    years = parsed.get("year", [config.ALL_VALUE])
-    if not isinstance(years, list): years = [years]
-    borough_values = {option["value"] for option in dropdown_options(config.BOROUGH_COLUMN)}
-    if borough not in borough_values: borough = config.ALL_VALUE
-    available_years = {option["value"] for option in ([{"label": "All", "value": config.ALL_VALUE}] + [{"label": str(y), "value": y} for y in sorted(int(v) for v in DATA[config.YEAR_COLUMN].dropna().unique())])}
-    years = [year for year in years if year in available_years]
-    if not years: years = [config.ALL_VALUE]
-    return (borough, years, parsed.get("housing_category", config.ALL_VALUE), parsed.get("transportation_category", config.ALL_VALUE), "✓ Search parsed. Click Generate Report.")
 
 
 # --- THE FIX: Smart Modal Layout Callback ---
@@ -312,14 +279,7 @@ def generate_report(_n_clicks, borough, years, housing_category, transportation_
 
     figures = []
     for chart_spec in CHART_SPECS:
-        fig = build_chart_figure(chart_spec, filtered_df, current_filters)
-        fig.update_layout(
-            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)', 
-            font=dict(family="Inter, sans-serif", color="#0f172a"), 
-            margin=dict(l=10, r=10, t=20, b=10),
-            colorway=["#6366f1", "#ec4899", "#14b8a6", "#f59e0b", "#8b5cf6"]
-        )
-        figures.append(fig)
+        figures.append(style_figure(build_chart_figure(chart_spec, filtered_df, current_filters)))
 
     if filtered_df.empty:
         return tuple(figures) + ("No results match the selected filters.", "empty-results visible", "No matching records.")
@@ -327,6 +287,6 @@ def generate_report(_n_clicks, borough, years, housing_category, transportation_
     summary = f"Showing {len(filtered_df):,} ZIP/year records across {filtered_df[config.ZIP_COLUMN].nunique():,} NYC ZIP codes."
     return tuple(figures) + ("", "empty-results", summary)
 
-
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=8050)
+    import os
+    app.run(debug=False, host="0.0.0.0", port=int(os.environ.get("PORT", 8050)))
