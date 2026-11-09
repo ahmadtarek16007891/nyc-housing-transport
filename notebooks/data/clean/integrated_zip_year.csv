@@ -1,0 +1,749 @@
+zip_code,borough,year,latitude,longitude,buildings_completed,projects_completed,total_units,new_construction_units,preservation_units,deeply_affordable_units,low_income_units,units_started,housing_category,crash_count,fatal_crashes,fatalities,severe_injuries,non_severe_injuries,transport_category,crashes_per_100_units,deeply_affordable_share,injuries_per_crash,match_source,flag_rate_outlier,flag_small_unit_base,flag_units_outlier
+10451,Bronx,2022,40.82069,-73.92309,3,3,544,544,0,140,115,381,New Construction,28,3,3,28,4,Fatal crash recorded,5.15,0.257,1.14,both,False,False,False
+10451,Bronx,2023,40.82069,-73.92309,12,6,2937,1063,1874,816,1664,804,Preservation,20,0,0,22,7,Serious injuries only,0.68,0.278,1.45,both,False,False,True
+10451,Bronx,2024,40.82069,-73.92309,11,11,1683,1643,40,50,130,1102,New Construction,25,3,3,22,6,Fatal crash recorded,1.49,0.03,1.12,both,False,False,True
+10451,Bronx,2025,40.82069,-73.92309,6,6,279,210,69,49,46,454,New Construction,26,1,1,25,9,Fatal crash recorded,9.32,0.176,1.31,both,False,False,False
+10452,Bronx,2022,40.83879,-73.92192,6,6,590,530,60,217,97,584,New Construction,48,2,2,51,13,Fatal crash recorded,8.14,0.368,1.33,both,False,False,False
+10452,Bronx,2023,40.83879,-73.92192,12,10,993,102,891,608,268,1163,Preservation,29,2,2,30,7,Fatal crash recorded,2.92,0.612,1.28,both,False,False,False
+10452,Bronx,2024,40.83879,-73.92192,19,15,1036,729,307,369,298,1424,New Construction,14,0,0,14,1,Serious injuries only,1.35,0.356,1.07,both,False,False,False
+10452,Bronx,2025,40.83879,-73.92192,18,16,1316,870,446,687,316,2217,New Construction,24,0,0,27,3,Serious injuries only,1.82,0.522,1.25,both,False,False,True
+10453,Bronx,2022,40.85173,-73.91106,10,9,687,344,343,383,184,711,New Construction,29,0,0,31,4,Serious injuries only,4.22,0.557,1.21,both,False,False,False
+10453,Bronx,2023,40.85173,-73.91106,12,12,791,204,587,91,478,1042,Preservation,35,0,0,36,9,Serious injuries only,4.42,0.115,1.29,both,False,False,False
+10453,Bronx,2024,40.85173,-73.91106,10,10,547,547,0,185,68,838,New Construction,27,0,0,29,1,Serious injuries only,4.94,0.338,1.11,both,False,False,False
+10453,Bronx,2025,40.85173,-73.91106,20,20,943,859,84,310,140,714,New Construction,35,2,2,35,12,Fatal crash recorded,3.71,0.329,1.34,both,False,False,False
+10454,Bronx,2022,40.80653,-73.91967,6,6,270,125,145,144,0,1109,Preservation,34,5,5,37,3,Fatal crash recorded,12.59,0.533,1.18,both,False,False,False
+10454,Bronx,2023,40.80653,-73.91967,7,5,362,327,35,205,138,379,New Construction,29,1,1,30,5,Fatal crash recorded,8.01,0.566,1.21,both,False,False,False
+10454,Bronx,2024,40.80653,-73.91967,2,2,813,813,0,0,0,537,New Construction,19,0,0,21,1,Serious injuries only,2.34,0.0,1.16,both,False,False,False
+10454,Bronx,2025,40.80653,-73.91967,4,4,1048,1048,0,0,0,120,New Construction,33,0,0,41,12,Serious injuries only,3.15,0.0,1.61,both,False,False,False
+10455,Bronx,2022,40.81452,-73.90899,5,4,152,152,0,55,24,159,New Construction,29,1,1,33,7,Fatal crash recorded,19.08,0.362,1.38,both,False,False,False
+10455,Bronx,2023,40.81452,-73.90899,11,10,871,756,115,339,213,342,New Construction,34,1,1,39,14,Fatal crash recorded,3.9,0.389,1.56,both,False,False,False
+10455,Bronx,2024,40.81452,-73.90899,4,4,151,86,65,13,37,139,New Construction,27,2,2,25,9,Fatal crash recorded,17.88,0.086,1.26,both,False,False,False
+10455,Bronx,2025,40.81452,-73.90899,3,3,137,137,0,0,0,698,New Construction,18,3,3,15,3,Fatal crash recorded,13.14,0.0,1.0,both,False,False,False
+10456,Bronx,2022,40.8309,-73.90747,8,8,550,390,160,359,136,349,New Construction,28,1,1,28,4,Fatal crash recorded,5.09,0.653,1.14,both,False,False,False
+10456,Bronx,2023,40.8309,-73.90747,17,11,651,299,352,380,137,776,Preservation,40,0,0,41,6,Serious injuries only,6.14,0.584,1.18,both,False,False,False
+10456,Bronx,2024,40.8309,-73.90747,20,14,545,236,309,207,99,515,Preservation,31,1,1,32,13,Fatal crash recorded,5.69,0.38,1.45,both,False,False,False
+10456,Bronx,2025,40.8309,-73.90747,29,15,717,354,363,219,107,1131,Preservation,37,1,1,39,5,Fatal crash recorded,5.16,0.305,1.19,both,False,False,False
+10457,Bronx,2022,40.84596,-73.89831,12,11,462,385,77,39,86,689,New Construction,29,2,2,29,21,Fatal crash recorded,6.28,0.084,1.72,both,False,False,False
+10457,Bronx,2023,40.84596,-73.89831,17,12,662,369,293,120,225,631,New Construction,30,0,0,31,7,Serious injuries only,4.53,0.181,1.27,both,False,False,False
+10457,Bronx,2024,40.84596,-73.89831,27,14,768,354,414,270,140,1279,Preservation,36,1,2,39,4,Fatal crash recorded,4.69,0.352,1.19,both,False,False,False
+10457,Bronx,2025,40.84596,-73.89831,16,16,850,755,95,170,77,1323,New Construction,26,0,0,30,4,Serious injuries only,3.06,0.2,1.31,both,False,False,False
+10458,Bronx,2022,40.8619,-73.88755,12,11,548,548,0,87,29,934,New Construction,25,3,3,22,4,Fatal crash recorded,4.56,0.159,1.04,both,False,False,False
+10458,Bronx,2023,40.8619,-73.88755,15,13,632,624,8,288,106,551,New Construction,22,1,1,21,4,Fatal crash recorded,3.48,0.456,1.14,both,False,False,False
+10458,Bronx,2024,40.8619,-73.88755,20,18,1570,818,752,382,430,1061,New Construction,22,2,2,20,4,Fatal crash recorded,1.4,0.243,1.09,both,False,False,True
+10458,Bronx,2025,40.8619,-73.88755,17,17,332,316,16,0,15,216,New Construction,20,0,0,21,6,Serious injuries only,6.02,0.0,1.35,both,False,False,False
+10459,Bronx,2022,40.82505,-73.8939,14,8,564,337,227,292,126,486,New Construction,26,1,1,31,10,Fatal crash recorded,4.61,0.518,1.58,both,False,False,False
+10459,Bronx,2023,40.82505,-73.8939,16,12,543,369,174,179,128,431,New Construction,20,0,0,20,5,Serious injuries only,3.68,0.33,1.25,both,False,False,False
+10459,Bronx,2024,40.82505,-73.8939,16,12,761,196,565,413,135,467,Preservation,28,1,1,30,8,Fatal crash recorded,3.68,0.543,1.36,both,False,False,False
+10459,Bronx,2025,40.82505,-73.8939,15,12,601,449,152,213,198,1456,New Construction,18,1,1,18,10,Fatal crash recorded,3.0,0.354,1.56,both,False,False,False
+10460,Bronx,2022,40.84096,-73.88213,8,7,179,105,74,60,12,243,New Construction,25,2,2,24,14,Fatal crash recorded,13.97,0.335,1.52,both,False,False,False
+10460,Bronx,2023,40.84096,-73.88213,35,18,1423,787,636,428,597,967,New Construction,16,1,1,16,7,Fatal crash recorded,1.12,0.301,1.44,both,False,False,True
+10460,Bronx,2024,40.84096,-73.88213,13,5,360,48,312,226,78,369,Preservation,25,1,1,25,6,Fatal crash recorded,6.94,0.628,1.24,both,False,False,False
+10460,Bronx,2025,40.84096,-73.88213,10,10,346,336,10,67,20,184,New Construction,23,0,0,27,5,Serious injuries only,6.65,0.194,1.39,both,False,False,False
+10461,Bronx,2022,40.84548,-73.83829,1,1,26,26,0,0,0,71,New Construction,10,0,0,10,5,Serious injuries only,38.46,0.0,1.5,both,False,False,False
+10461,Bronx,2023,40.84548,-73.83829,2,2,65,16,49,8,40,241,Preservation,14,2,2,13,3,Fatal crash recorded,21.54,0.123,1.14,both,False,False,False
+10461,Bronx,2024,40.84548,-73.83829,3,3,87,87,0,0,0,152,New Construction,22,1,1,23,4,Fatal crash recorded,25.29,0.0,1.23,both,False,False,False
+10461,Bronx,2025,40.84548,-73.83829,2,2,85,85,0,0,5,79,New Construction,25,0,0,27,10,Serious injuries only,29.41,0.0,1.48,both,False,False,False
+10462,Bronx,2022,40.84277,-73.85909,1,1,8,8,0,0,0,8,New Construction,19,3,3,17,3,Fatal crash recorded,237.5,0.0,1.05,both,True,True,False
+10462,Bronx,2023,40.84277,-73.85909,4,4,355,255,100,280,35,116,New Construction,14,0,0,14,7,Serious injuries only,3.94,0.789,1.5,both,False,False,False
+10462,Bronx,2024,40.84277,-73.85909,1,1,37,37,0,0,0,188,New Construction,26,2,3,32,7,Fatal crash recorded,70.27,0.0,1.5,both,True,False,False
+10462,Bronx,2025,40.84277,-73.85909,1,1,39,39,0,0,8,39,New Construction,12,1,1,11,0,Fatal crash recorded,30.77,0.0,0.92,both,False,False,False
+10463,Bronx,2022,40.88003,-73.90321,0,0,0,0,0,0,0,89,No completions,29,3,3,28,5,Fatal crash recorded,,,1.14,transport only,False,False,False
+10463,Bronx,2023,40.88003,-73.90321,3,3,114,114,0,0,0,243,New Construction,31,0,0,33,10,Serious injuries only,27.19,0.0,1.39,both,False,False,False
+10463,Bronx,2024,40.88003,-73.90321,7,7,320,149,171,170,0,706,Preservation,23,1,1,27,5,Fatal crash recorded,7.19,0.531,1.39,both,False,False,False
+10463,Bronx,2025,40.88003,-73.90321,10,10,369,186,183,18,152,293,New Construction,28,0,0,29,9,Serious injuries only,7.59,0.049,1.36,both,False,False,False
+10464,Bronx,2022,40.86107,-73.80097,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10464,Bronx,2023,40.86107,-73.80097,0,0,0,0,0,0,0,0,No completions,3,0,0,3,0,Serious injuries only,,,1.0,transport only,False,False,False
+10464,Bronx,2024,40.86107,-73.80097,0,0,0,0,0,0,0,0,No completions,2,0,0,2,4,Serious injuries only,,,3.0,transport only,False,False,False
+10464,Bronx,2025,40.86107,-73.80097,0,0,0,0,0,0,0,0,No completions,3,1,1,2,0,Fatal crash recorded,,,0.67,transport only,False,False,False
+10465,Bronx,2022,40.83332,-73.8304,0,0,0,0,0,0,0,0,No completions,13,2,2,14,2,Fatal crash recorded,,,1.23,transport only,False,False,False
+10465,Bronx,2023,40.83332,-73.8304,0,0,0,0,0,0,0,0,No completions,8,0,0,8,3,Serious injuries only,,,1.38,transport only,False,False,False
+10465,Bronx,2024,40.83332,-73.8304,0,0,0,0,0,0,0,0,No completions,14,0,0,14,9,Serious injuries only,,,1.64,transport only,False,False,False
+10465,Bronx,2025,40.83332,-73.8304,0,0,0,0,0,0,0,0,No completions,14,1,1,13,4,Fatal crash recorded,,,1.21,transport only,False,False,False
+10466,Bronx,2022,40.89009,-73.85027,2,2,126,126,0,0,0,136,New Construction,12,0,0,13,0,Serious injuries only,9.52,0.0,1.08,both,False,False,False
+10466,Bronx,2023,40.89009,-73.85027,2,2,71,71,0,0,0,67,New Construction,20,0,0,20,3,Serious injuries only,28.17,0.0,1.15,both,False,False,False
+10466,Bronx,2024,40.89009,-73.85027,2,2,33,33,0,0,0,61,New Construction,23,2,2,23,8,Fatal crash recorded,69.7,0.0,1.35,both,True,False,False
+10466,Bronx,2025,40.89009,-73.85027,4,4,68,68,0,0,0,30,New Construction,25,1,1,26,5,Fatal crash recorded,36.76,0.0,1.24,both,False,False,False
+10467,Bronx,2022,40.87448,-73.86945,10,10,269,269,0,0,4,626,New Construction,25,3,3,22,5,Fatal crash recorded,9.29,0.0,1.08,both,False,False,False
+10467,Bronx,2023,40.87448,-73.86945,17,13,1184,484,700,371,425,998,Preservation,30,4,4,30,13,Fatal crash recorded,2.53,0.313,1.43,both,False,False,True
+10467,Bronx,2024,40.87448,-73.86945,14,12,464,375,89,110,41,937,New Construction,34,2,2,36,16,Fatal crash recorded,7.33,0.237,1.53,both,False,False,False
+10467,Bronx,2025,40.87448,-73.86945,17,17,608,526,82,181,116,427,New Construction,36,2,2,37,16,Fatal crash recorded,5.92,0.298,1.47,both,False,False,False
+10468,Bronx,2022,40.86681,-73.89917,6,5,147,147,0,0,0,183,New Construction,29,2,2,28,5,Fatal crash recorded,19.73,0.0,1.14,both,False,False,False
+10468,Bronx,2023,40.86681,-73.89917,9,8,349,164,185,86,96,647,Preservation,38,3,3,35,5,Fatal crash recorded,10.89,0.246,1.05,both,False,False,False
+10468,Bronx,2024,40.86681,-73.89917,15,14,597,597,0,130,59,552,New Construction,30,2,3,31,9,Fatal crash recorded,5.03,0.218,1.33,both,False,False,False
+10468,Bronx,2025,40.86681,-73.89917,19,19,967,607,360,214,292,609,New Construction,20,1,1,20,0,Fatal crash recorded,2.07,0.221,1.0,both,False,False,False
+10469,Bronx,2022,40.87491,-73.85003,3,3,41,41,0,0,0,65,New Construction,14,1,1,13,5,Fatal crash recorded,34.15,0.0,1.29,both,False,False,False
+10469,Bronx,2023,40.87491,-73.85003,2,2,52,52,0,0,0,68,New Construction,25,2,2,26,9,Fatal crash recorded,48.08,0.0,1.4,both,False,False,False
+10469,Bronx,2024,40.87491,-73.85003,2,1,16,16,0,0,0,1500,New Construction,27,1,1,29,16,Fatal crash recorded,168.75,0.0,1.67,both,True,True,False
+10469,Bronx,2025,40.87491,-73.85003,2,2,100,100,0,0,0,35,New Construction,21,1,1,23,10,Fatal crash recorded,21.0,0.0,1.57,both,False,False,False
+10470,Bronx,2022,40.90076,-73.85574,0,0,0,0,0,0,0,199,No completions,10,1,1,9,1,Fatal crash recorded,,,1.0,transport only,False,False,False
+10470,Bronx,2023,40.90076,-73.85574,2,1,20,20,0,0,0,330,New Construction,6,1,1,5,1,Fatal crash recorded,30.0,0.0,1.0,both,False,False,False
+10470,Bronx,2024,40.90076,-73.85574,1,1,73,73,0,72,0,59,New Construction,10,1,1,10,4,Fatal crash recorded,13.7,0.986,1.4,both,False,False,False
+10470,Bronx,2025,40.90076,-73.85574,2,2,157,157,0,69,28,46,New Construction,7,0,0,10,1,Serious injuries only,4.46,0.439,1.57,both,False,False,False
+10471,Bronx,2022,40.90207,-73.8982,2,2,73,73,0,0,1,155,New Construction,5,1,1,4,0,Fatal crash recorded,6.85,0.0,0.8,both,False,False,False
+10471,Bronx,2023,40.90207,-73.8982,0,0,0,0,0,0,0,0,No completions,10,0,0,11,0,Serious injuries only,,,1.1,transport only,False,False,False
+10471,Bronx,2024,40.90207,-73.8982,0,0,0,0,0,0,0,0,No completions,11,0,0,11,0,Serious injuries only,,,1.0,transport only,False,False,False
+10471,Bronx,2025,40.90207,-73.8982,1,1,90,90,0,0,0,0,New Construction,3,0,0,3,0,Serious injuries only,3.33,0.0,1.0,both,False,False,False
+10472,Bronx,2022,40.82951,-73.87011,3,3,267,73,194,150,41,77,Preservation,23,4,6,23,3,Fatal crash recorded,8.61,0.562,1.13,both,False,False,False
+10472,Bronx,2023,40.82951,-73.87011,3,3,261,205,56,213,46,630,New Construction,16,0,0,22,11,Serious injuries only,6.13,0.816,2.06,both,False,False,False
+10472,Bronx,2024,40.82951,-73.87011,4,4,131,100,31,49,49,16,New Construction,26,1,1,26,7,Fatal crash recorded,19.85,0.374,1.27,both,False,False,False
+10472,Bronx,2025,40.82951,-73.87011,1,1,61,0,61,12,44,61,Preservation,17,1,1,16,4,Fatal crash recorded,27.87,0.197,1.18,both,False,False,False
+10473,Bronx,2022,40.81984,-73.86255,0,0,0,0,0,0,0,162,No completions,10,1,1,9,0,Fatal crash recorded,,,0.9,transport only,False,False,False
+10473,Bronx,2023,40.81984,-73.86255,8,1,56,56,0,0,0,208,New Construction,9,3,3,6,6,Fatal crash recorded,16.07,0.0,1.33,both,False,False,False
+10473,Bronx,2024,40.81984,-73.86255,7,5,568,211,357,413,97,0,Preservation,8,1,1,8,1,Fatal crash recorded,1.41,0.727,1.12,both,False,False,False
+10473,Bronx,2025,40.81984,-73.86255,1,1,16,16,0,0,4,57,New Construction,9,0,0,9,2,Serious injuries only,56.25,0.0,1.22,both,False,True,False
+10474,Bronx,2022,40.81494,-73.88766,2,2,239,239,0,72,142,0,New Construction,14,1,1,14,5,Fatal crash recorded,5.86,0.301,1.36,both,False,False,False
+10474,Bronx,2023,40.81494,-73.88766,0,0,0,0,0,0,0,411,No completions,11,1,1,10,2,Fatal crash recorded,,,1.09,transport only,False,False,False
+10474,Bronx,2024,40.81494,-73.88766,1,1,48,0,48,47,0,27,Preservation,13,2,3,16,6,Fatal crash recorded,27.08,0.979,1.69,both,False,False,False
+10474,Bronx,2025,40.81494,-73.88766,2,2,33,33,0,0,0,0,New Construction,9,1,1,8,0,Fatal crash recorded,27.27,0.0,0.89,both,False,False,False
+10475,Bronx,2022,40.87408,-73.82763,28,2,7895,0,7895,5710,2096,135,Preservation,8,1,1,9,3,Fatal crash recorded,0.1,0.723,1.5,both,False,False,True
+10475,Bronx,2023,40.87408,-73.82763,43,1,6112,0,6112,4568,1544,0,Preservation,12,0,0,15,3,Serious injuries only,0.2,0.747,1.5,both,False,False,True
+10475,Bronx,2024,40.87408,-73.82763,9,1,1500,0,1500,1135,365,0,Preservation,8,0,0,12,2,Serious injuries only,0.53,0.757,1.75,both,False,False,True
+10475,Bronx,2025,40.87408,-73.82763,0,0,0,0,0,0,0,11,No completions,15,1,1,17,11,Fatal crash recorded,,,1.87,transport only,False,False,False
+11201,Brooklyn,2022,40.69425,-73.98625,3,3,641,641,0,323,18,1927,New Construction,25,0,0,25,4,Serious injuries only,3.9,0.504,1.16,both,False,False,False
+11201,Brooklyn,2023,40.69425,-73.98625,3,3,565,565,0,0,28,1461,New Construction,31,2,2,30,5,Fatal crash recorded,5.49,0.0,1.13,both,False,False,False
+11201,Brooklyn,2024,40.69425,-73.98625,2,2,194,194,0,0,1,787,New Construction,23,1,1,24,8,Fatal crash recorded,11.86,0.0,1.39,both,False,False,False
+11201,Brooklyn,2025,40.69425,-73.98625,4,4,990,990,0,0,0,1521,New Construction,6,0,0,6,1,Serious injuries only,0.61,0.0,1.17,both,False,False,False
+11203,Brooklyn,2022,40.65182,-73.93656,8,8,101,100,1,0,1,193,New Construction,24,1,1,23,4,Fatal crash recorded,23.76,0.0,1.12,both,False,False,False
+11203,Brooklyn,2023,40.65182,-73.93656,11,10,108,107,1,0,1,625,New Construction,32,0,0,35,8,Serious injuries only,29.63,0.0,1.34,both,False,False,False
+11203,Brooklyn,2024,40.65182,-73.93656,9,7,165,165,0,57,0,43,New Construction,33,1,1,36,6,Fatal crash recorded,20.0,0.345,1.27,both,False,False,False
+11203,Brooklyn,2025,40.65182,-73.93656,8,8,124,124,0,0,0,329,New Construction,36,4,4,34,8,Fatal crash recorded,29.03,0.0,1.17,both,False,False,False
+11204,Brooklyn,2022,40.62017,-73.98513,0,0,0,0,0,0,0,44,No completions,12,1,1,11,2,Fatal crash recorded,,,1.08,transport only,False,False,False
+11204,Brooklyn,2023,40.62017,-73.98513,0,0,0,0,0,0,0,0,No completions,16,1,2,17,7,Fatal crash recorded,,,1.5,transport only,False,False,False
+11204,Brooklyn,2024,40.62017,-73.98513,1,1,44,44,0,0,2,10,New Construction,21,2,2,20,2,Fatal crash recorded,47.73,0.0,1.05,both,False,False,False
+11204,Brooklyn,2025,40.62017,-73.98513,1,1,10,10,0,0,0,0,New Construction,27,3,3,26,10,Fatal crash recorded,270.0,0.0,1.33,both,True,True,False
+11205,Brooklyn,2022,40.69347,-73.96242,5,3,41,24,17,15,1,328,New Construction,19,1,1,20,0,Fatal crash recorded,46.34,0.366,1.05,both,False,False,False
+11205,Brooklyn,2023,40.69347,-73.96242,4,3,24,9,15,0,0,32,Preservation,14,1,1,13,9,Fatal crash recorded,58.33,0.0,1.57,both,False,False,False
+11205,Brooklyn,2024,40.69347,-73.96242,5,4,286,280,6,9,9,442,New Construction,22,2,2,21,4,Fatal crash recorded,7.69,0.031,1.14,both,False,False,False
+11205,Brooklyn,2025,40.69347,-73.96242,6,6,314,240,74,65,27,276,New Construction,21,3,3,21,8,Fatal crash recorded,6.69,0.207,1.38,both,False,False,False
+11206,Brooklyn,2022,40.7011,-73.94316,8,8,426,426,0,0,108,740,New Construction,20,2,2,19,2,Fatal crash recorded,4.69,0.0,1.05,both,False,False,False
+11206,Brooklyn,2023,40.7011,-73.94316,11,11,264,264,0,0,64,209,New Construction,38,1,1,37,8,Fatal crash recorded,14.39,0.0,1.18,both,False,False,False
+11206,Brooklyn,2024,40.7011,-73.94316,15,15,828,782,46,443,110,858,New Construction,38,4,4,34,7,Fatal crash recorded,4.59,0.535,1.08,both,False,False,False
+11206,Brooklyn,2025,40.7011,-73.94316,10,9,690,690,0,56,125,76,New Construction,38,1,1,37,3,Fatal crash recorded,5.51,0.081,1.05,both,False,False,False
+11207,Brooklyn,2022,40.67075,-73.89453,15,8,195,195,0,54,16,445,New Construction,33,2,2,31,6,Fatal crash recorded,16.92,0.277,1.12,both,False,False,False
+11207,Brooklyn,2023,40.67075,-73.89453,13,9,402,263,139,267,80,840,New Construction,37,1,1,37,9,Fatal crash recorded,9.2,0.664,1.24,both,False,False,False
+11207,Brooklyn,2024,40.67075,-73.89453,6,6,242,236,6,21,21,502,New Construction,45,3,3,43,35,Fatal crash recorded,18.6,0.087,1.73,both,False,False,False
+11207,Brooklyn,2025,40.67075,-73.89453,5,5,160,160,0,67,31,1081,New Construction,28,3,3,27,12,Fatal crash recorded,17.5,0.419,1.39,both,False,False,False
+11208,Brooklyn,2022,40.67502,-73.87268,7,7,471,466,5,350,68,912,New Construction,24,0,0,26,8,Serious injuries only,5.1,0.743,1.42,both,False,False,False
+11208,Brooklyn,2023,40.67502,-73.87268,14,11,553,224,329,387,113,397,Preservation,32,1,1,32,29,Fatal crash recorded,5.79,0.7,1.91,both,False,False,False
+11208,Brooklyn,2024,40.67502,-73.87268,5,4,1236,648,588,374,849,1750,New Construction,25,0,0,28,11,Serious injuries only,2.02,0.303,1.56,both,False,False,True
+11208,Brooklyn,2025,40.67502,-73.87268,5,5,817,817,0,408,310,760,New Construction,30,2,3,35,10,Fatal crash recorded,3.67,0.499,1.5,both,False,False,False
+11209,Brooklyn,2022,40.62588,-74.02906,1,1,15,15,0,0,0,0,New Construction,8,0,0,8,1,Serious injuries only,53.33,0.0,1.12,both,False,True,False
+11209,Brooklyn,2023,40.62588,-74.02906,0,0,0,0,0,0,0,0,No completions,9,0,0,11,0,Serious injuries only,,,1.22,transport only,False,False,False
+11209,Brooklyn,2024,40.62588,-74.02906,0,0,0,0,0,0,0,0,No completions,8,0,0,8,6,Serious injuries only,,,1.75,transport only,False,False,False
+11209,Brooklyn,2025,40.62588,-74.02906,0,0,0,0,0,0,0,25,No completions,9,1,2,9,1,Fatal crash recorded,,,1.11,transport only,False,False,False
+11210,Brooklyn,2022,40.63374,-73.94523,15,10,183,183,0,0,0,480,New Construction,22,2,2,21,4,Fatal crash recorded,12.02,0.0,1.14,both,False,False,False
+11210,Brooklyn,2023,40.63374,-73.94523,16,14,330,330,0,0,22,2444,New Construction,12,0,0,13,6,Serious injuries only,3.64,0.0,1.58,both,False,False,False
+11210,Brooklyn,2024,40.63374,-73.94523,4,3,78,78,0,0,0,111,New Construction,25,0,0,27,4,Serious injuries only,32.05,0.0,1.24,both,False,False,False
+11210,Brooklyn,2025,40.63374,-73.94523,7,7,381,381,0,17,34,193,New Construction,24,1,1,25,6,Fatal crash recorded,6.3,0.045,1.29,both,False,False,False
+11211,Brooklyn,2022,40.71309,-73.95193,8,7,290,290,0,0,37,290,New Construction,18,1,1,18,2,Fatal crash recorded,6.21,0.0,1.11,both,False,False,False
+11211,Brooklyn,2023,40.71309,-73.95193,17,6,405,204,201,186,35,1078,New Construction,26,1,1,29,5,Fatal crash recorded,6.42,0.459,1.31,both,False,False,False
+11211,Brooklyn,2024,40.71309,-73.95193,9,9,460,460,0,12,15,519,New Construction,26,0,0,26,5,Serious injuries only,5.65,0.026,1.19,both,False,False,False
+11211,Brooklyn,2025,40.71309,-73.95193,2,2,207,207,0,0,41,105,New Construction,25,4,4,24,2,Fatal crash recorded,12.08,0.0,1.04,both,False,False,False
+11212,Brooklyn,2022,40.66344,-73.91214,13,5,82,40,42,27,14,694,Preservation,39,1,1,43,3,Fatal crash recorded,47.56,0.329,1.18,both,False,False,False
+11212,Brooklyn,2023,40.66344,-73.91214,9,7,265,265,0,162,6,448,New Construction,30,1,1,29,12,Fatal crash recorded,11.32,0.611,1.37,both,False,False,False
+11212,Brooklyn,2024,40.66344,-73.91214,8,8,87,87,0,2,2,517,New Construction,27,2,2,26,2,Fatal crash recorded,31.03,0.023,1.04,both,False,False,False
+11212,Brooklyn,2025,40.66344,-73.91214,15,14,850,812,38,519,243,1180,New Construction,44,3,3,43,9,Fatal crash recorded,5.18,0.611,1.18,both,False,False,False
+11213,Brooklyn,2022,40.67089,-73.93373,5,5,63,63,0,0,0,40,New Construction,38,6,6,32,9,Fatal crash recorded,60.32,0.0,1.08,both,False,False,False
+11213,Brooklyn,2023,40.67089,-73.93373,9,8,504,236,268,310,70,418,Preservation,17,1,1,16,1,Fatal crash recorded,3.37,0.615,1.0,both,False,False,False
+11213,Brooklyn,2024,40.67089,-73.93373,6,6,77,65,12,2,9,157,New Construction,26,1,1,26,1,Fatal crash recorded,33.77,0.026,1.04,both,False,False,False
+11213,Brooklyn,2025,40.67089,-73.93373,14,8,400,281,119,111,3,459,New Construction,18,3,3,20,0,Fatal crash recorded,4.5,0.278,1.11,both,False,False,False
+11214,Brooklyn,2022,40.6013,-73.9968,0,0,0,0,0,0,0,0,No completions,19,2,2,17,10,Fatal crash recorded,,,1.42,transport only,False,False,False
+11214,Brooklyn,2023,40.6013,-73.9968,0,0,0,0,0,0,0,10,No completions,16,2,2,15,5,Fatal crash recorded,,,1.25,transport only,False,False,False
+11214,Brooklyn,2024,40.6013,-73.9968,0,0,0,0,0,0,0,0,No completions,15,0,0,18,8,Serious injuries only,,,1.73,transport only,False,False,False
+11214,Brooklyn,2025,40.6013,-73.9968,0,0,0,0,0,0,0,107,No completions,25,1,1,24,8,Fatal crash recorded,,,1.28,transport only,False,False,False
+11215,Brooklyn,2022,40.66967,-73.98748,1,1,8,8,0,0,0,878,New Construction,17,1,1,16,6,Fatal crash recorded,212.5,0.0,1.29,both,True,True,False
+11215,Brooklyn,2023,40.66967,-73.98748,3,3,102,102,0,0,0,840,New Construction,20,1,1,21,0,Fatal crash recorded,19.61,0.0,1.05,both,False,False,False
+11215,Brooklyn,2024,40.66967,-73.98748,3,3,208,54,154,5,98,846,Preservation,25,0,0,29,5,Serious injuries only,12.02,0.024,1.36,both,False,False,False
+11215,Brooklyn,2025,40.66967,-73.98748,2,2,584,584,0,59,59,72,New Construction,13,1,1,14,1,Fatal crash recorded,2.23,0.101,1.15,both,False,False,False
+11216,Brooklyn,2022,40.68093,-73.94817,24,10,405,307,98,85,48,61,New Construction,22,4,4,19,11,Fatal crash recorded,5.43,0.21,1.36,both,False,False,False
+11216,Brooklyn,2023,40.68093,-73.94817,21,8,206,120,86,19,50,353,New Construction,23,3,3,21,5,Fatal crash recorded,11.17,0.092,1.13,both,False,False,False
+11216,Brooklyn,2024,40.68093,-73.94817,7,7,348,176,172,136,29,368,New Construction,14,1,1,13,1,Fatal crash recorded,4.02,0.391,1.0,both,False,False,False
+11216,Brooklyn,2025,40.68093,-73.94817,8,7,319,319,0,41,40,24,New Construction,22,0,0,22,3,Serious injuries only,6.9,0.129,1.14,both,False,False,False
+11217,Brooklyn,2022,40.68398,-73.9788,2,2,289,289,0,78,59,1175,New Construction,13,0,0,14,1,Serious injuries only,4.5,0.27,1.15,both,False,False,False
+11217,Brooklyn,2023,40.68398,-73.9788,4,4,1206,1198,8,1,7,914,New Construction,24,1,1,24,9,Fatal crash recorded,1.99,0.001,1.38,both,False,False,True
+11217,Brooklyn,2024,40.68398,-73.9788,2,2,152,152,0,28,0,600,New Construction,17,2,2,15,1,Fatal crash recorded,11.18,0.184,0.94,both,False,False,False
+11217,Brooklyn,2025,40.68398,-73.9788,6,5,981,913,68,132,110,1751,New Construction,18,2,2,16,6,Fatal crash recorded,1.83,0.135,1.22,both,False,False,False
+11218,Brooklyn,2022,40.64251,-73.97752,4,4,34,34,0,0,0,541,New Construction,21,1,1,22,3,Fatal crash recorded,61.76,0.0,1.19,both,False,False,False
+11218,Brooklyn,2023,40.64251,-73.97752,2,2,64,64,0,0,0,0,New Construction,19,3,3,18,8,Fatal crash recorded,29.69,0.0,1.37,both,False,False,False
+11218,Brooklyn,2024,40.64251,-73.97752,1,1,6,6,0,0,0,198,New Construction,17,0,0,17,5,Serious injuries only,283.33,0.0,1.29,both,True,True,False
+11218,Brooklyn,2025,40.64251,-73.97752,2,2,503,503,0,38,64,20,New Construction,22,1,1,22,7,Fatal crash recorded,4.37,0.076,1.32,both,False,False,False
+11219,Brooklyn,2022,40.63315,-73.9972,1,1,8,8,0,0,0,10,New Construction,16,2,2,14,2,Fatal crash recorded,200.0,0.0,1.0,both,True,True,False
+11219,Brooklyn,2023,40.63315,-73.9972,0,0,0,0,0,0,0,32,No completions,22,2,2,22,0,Fatal crash recorded,,,1.0,transport only,False,False,False
+11219,Brooklyn,2024,40.63315,-73.9972,0,0,0,0,0,0,0,0,No completions,23,1,1,22,3,Fatal crash recorded,,,1.09,transport only,False,False,False
+11219,Brooklyn,2025,40.63315,-73.9972,1,1,16,16,0,0,0,28,New Construction,13,0,0,13,3,Serious injuries only,81.25,0.0,1.23,both,True,True,False
+11220,Brooklyn,2022,40.64065,-74.01643,1,1,76,76,0,75,0,101,New Construction,25,6,6,20,5,Fatal crash recorded,32.89,0.987,1.0,both,False,False,False
+11220,Brooklyn,2023,40.64065,-74.01643,3,3,67,67,0,8,0,53,New Construction,27,3,3,25,3,Fatal crash recorded,40.3,0.119,1.04,both,False,False,False
+11220,Brooklyn,2024,40.64065,-74.01643,0,0,0,0,0,0,0,318,No completions,24,5,5,22,11,Fatal crash recorded,,,1.38,transport only,False,False,False
+11220,Brooklyn,2025,40.64065,-74.01643,3,2,56,8,48,19,29,811,Preservation,32,3,4,30,12,Fatal crash recorded,57.14,0.339,1.31,both,False,False,False
+11221,Brooklyn,2022,40.69196,-73.92567,30,20,378,269,109,82,24,472,New Construction,26,2,2,25,4,Fatal crash recorded,6.88,0.217,1.12,both,False,False,False
+11221,Brooklyn,2023,40.69196,-73.92567,35,18,627,381,246,177,78,222,New Construction,17,0,0,17,9,Serious injuries only,2.71,0.282,1.53,both,False,False,False
+11221,Brooklyn,2024,40.69196,-73.92567,13,10,475,431,44,292,73,393,New Construction,21,2,2,19,19,Fatal crash recorded,4.42,0.615,1.81,both,False,False,False
+11221,Brooklyn,2025,40.69196,-73.92567,10,10,325,325,0,11,8,229,New Construction,26,3,3,25,9,Fatal crash recorded,8.0,0.034,1.31,both,False,False,False
+11222,Brooklyn,2022,40.72912,-73.9506,6,6,961,961,0,0,52,423,New Construction,14,0,0,15,1,Serious injuries only,1.46,0.0,1.14,both,False,False,False
+11222,Brooklyn,2023,40.72912,-73.9506,8,8,1360,1360,0,191,334,1654,New Construction,9,2,2,8,3,Fatal crash recorded,0.66,0.14,1.22,both,False,False,True
+11222,Brooklyn,2024,40.72912,-73.9506,4,2,791,791,0,20,106,164,New Construction,22,1,1,21,2,Fatal crash recorded,2.78,0.025,1.05,both,False,False,False
+11222,Brooklyn,2025,40.72912,-73.9506,8,8,603,603,0,0,113,14,New Construction,18,1,1,19,0,Fatal crash recorded,2.99,0.0,1.06,both,False,False,False
+11223,Brooklyn,2022,40.60134,-73.97148,1,1,43,43,0,0,0,102,New Construction,20,3,3,19,11,Fatal crash recorded,46.51,0.0,1.5,both,False,False,False
+11223,Brooklyn,2023,40.60134,-73.97148,1,1,61,61,0,0,0,18,New Construction,13,0,0,13,1,Serious injuries only,21.31,0.0,1.08,both,False,False,False
+11223,Brooklyn,2024,40.60134,-73.97148,1,1,6,6,0,0,0,125,New Construction,21,1,1,24,23,Fatal crash recorded,350.0,0.0,2.24,both,True,True,False
+11223,Brooklyn,2025,40.60134,-73.97148,1,1,12,12,0,0,0,24,New Construction,23,2,4,26,10,Fatal crash recorded,191.67,0.0,1.57,both,True,True,False
+11224,Brooklyn,2022,40.57836,-73.98584,2,2,35,35,0,0,0,77,New Construction,9,0,0,10,3,Serious injuries only,25.71,0.0,1.44,both,False,False,False
+11224,Brooklyn,2023,40.57836,-73.98584,4,4,1016,200,816,231,781,857,Preservation,10,1,1,11,1,Fatal crash recorded,0.98,0.227,1.2,both,False,False,False
+11224,Brooklyn,2024,40.57836,-73.98584,0,0,0,0,0,0,0,546,No completions,12,0,0,12,3,Serious injuries only,,,1.25,transport only,False,False,False
+11224,Brooklyn,2025,40.57836,-73.98584,3,3,704,704,0,188,241,1098,New Construction,15,1,1,14,8,Fatal crash recorded,2.13,0.267,1.47,both,False,False,False
+11225,Brooklyn,2022,40.66414,-73.95455,2,2,18,18,0,0,0,321,New Construction,29,1,1,32,8,Fatal crash recorded,161.11,0.0,1.38,both,True,True,False
+11225,Brooklyn,2023,40.66414,-73.95455,5,4,563,563,0,100,182,840,New Construction,18,1,1,19,1,Fatal crash recorded,3.2,0.178,1.11,both,False,False,False
+11225,Brooklyn,2024,40.66414,-73.95455,4,4,273,14,259,241,16,125,Preservation,15,0,0,15,3,Serious injuries only,5.49,0.883,1.2,both,False,False,False
+11225,Brooklyn,2025,40.66414,-73.95455,1,1,37,37,0,0,0,604,New Construction,9,1,1,8,1,Fatal crash recorded,24.32,0.0,1.0,both,False,False,False
+11226,Brooklyn,2022,40.64857,-73.95463,27,25,692,688,4,2,2,394,New Construction,26,1,1,26,9,Fatal crash recorded,3.76,0.003,1.35,both,False,False,False
+11226,Brooklyn,2023,40.64857,-73.95463,18,17,806,806,0,27,37,960,New Construction,28,2,2,28,9,Fatal crash recorded,3.47,0.033,1.32,both,False,False,False
+11226,Brooklyn,2024,40.64857,-73.95463,12,12,473,473,0,0,0,343,New Construction,37,3,3,36,8,Fatal crash recorded,7.82,0.0,1.19,both,False,False,False
+11226,Brooklyn,2025,40.64857,-73.95463,16,15,428,428,0,0,4,469,New Construction,29,0,0,34,3,Serious injuries only,6.78,0.0,1.28,both,False,False,False
+11228,Brooklyn,2022,40.61902,-74.01006,0,0,0,0,0,0,0,0,No completions,8,1,1,7,2,Fatal crash recorded,,,1.12,transport only,False,False,False
+11228,Brooklyn,2023,40.61902,-74.01006,1,1,18,18,0,0,0,0,New Construction,8,0,0,8,3,Serious injuries only,44.44,0.0,1.38,both,False,True,False
+11228,Brooklyn,2024,40.61902,-74.01006,0,0,0,0,0,0,0,0,No completions,11,1,1,11,3,Fatal crash recorded,,,1.27,transport only,False,False,False
+11228,Brooklyn,2025,40.61902,-74.01006,0,0,0,0,0,0,0,0,No completions,8,1,1,9,1,Fatal crash recorded,,,1.25,transport only,False,False,False
+11229,Brooklyn,2022,40.60512,-73.94906,0,0,0,0,0,0,0,9,No completions,14,1,1,13,1,Fatal crash recorded,,,1.0,transport only,False,False,False
+11229,Brooklyn,2023,40.60512,-73.94906,2,2,38,38,0,0,0,10,New Construction,23,3,3,21,5,Fatal crash recorded,60.53,0.0,1.13,both,False,False,False
+11229,Brooklyn,2024,40.60512,-73.94906,1,1,19,19,0,0,0,19,New Construction,25,1,1,26,4,Fatal crash recorded,131.58,0.0,1.2,both,True,True,False
+11229,Brooklyn,2025,40.60512,-73.94906,1,1,47,47,0,0,0,146,New Construction,20,2,2,24,6,Fatal crash recorded,42.55,0.0,1.5,both,False,False,False
+11230,Brooklyn,2022,40.62318,-73.96474,6,6,242,242,0,0,0,50,New Construction,27,3,3,25,4,Fatal crash recorded,11.16,0.0,1.07,both,False,False,False
+11230,Brooklyn,2023,40.62318,-73.96474,2,2,58,58,0,0,0,167,New Construction,30,4,4,26,7,Fatal crash recorded,51.72,0.0,1.1,both,False,False,False
+11230,Brooklyn,2024,40.62318,-73.96474,1,1,74,74,0,0,0,117,New Construction,31,2,2,30,10,Fatal crash recorded,41.89,0.0,1.29,both,False,False,False
+11230,Brooklyn,2025,40.62318,-73.96474,4,4,136,136,0,0,0,0,New Construction,28,4,4,29,5,Fatal crash recorded,20.59,0.0,1.21,both,False,False,False
+11231,Brooklyn,2022,40.67833,-74.00008,2,1,16,0,16,8,5,0,Preservation,14,0,0,16,1,Serious injuries only,87.5,0.5,1.21,both,True,True,False
+11231,Brooklyn,2023,40.67833,-74.00008,2,2,32,17,15,6,8,1147,New Construction,14,0,0,14,0,Serious injuries only,43.75,0.188,1.0,both,False,False,False
+11231,Brooklyn,2024,40.67833,-74.00008,1,1,5,5,0,0,5,583,New Construction,18,1,1,20,3,Fatal crash recorded,360.0,0.0,1.28,both,True,True,False
+11231,Brooklyn,2025,40.67833,-74.00008,1,1,132,132,0,13,17,158,New Construction,8,0,0,8,1,Serious injuries only,6.06,0.098,1.12,both,False,False,False
+11232,Brooklyn,2022,40.65386,-74.00403,0,0,0,0,0,0,0,8,No completions,19,1,1,20,6,Fatal crash recorded,,,1.37,transport only,False,False,False
+11232,Brooklyn,2023,40.65386,-74.00403,0,0,0,0,0,0,0,0,No completions,16,1,1,17,1,Fatal crash recorded,,,1.12,transport only,False,False,False
+11232,Brooklyn,2024,40.65386,-74.00403,1,1,8,8,0,0,0,195,New Construction,18,0,0,18,4,Serious injuries only,225.0,0.0,1.22,both,True,True,False
+11232,Brooklyn,2025,40.65386,-74.00403,1,1,150,150,0,0,27,0,New Construction,14,2,2,18,0,Fatal crash recorded,9.33,0.0,1.29,both,False,False,False
+11233,Brooklyn,2022,40.67619,-73.9165,8,7,367,335,32,122,142,52,New Construction,33,1,1,34,7,Fatal crash recorded,8.99,0.332,1.24,both,False,False,False
+11233,Brooklyn,2023,40.67619,-73.9165,14,9,322,229,93,158,123,511,New Construction,22,0,0,25,4,Serious injuries only,6.83,0.491,1.32,both,False,False,False
+11233,Brooklyn,2024,40.67619,-73.9165,10,7,149,149,0,0,0,245,New Construction,23,0,0,27,7,Serious injuries only,15.44,0.0,1.48,both,False,False,False
+11233,Brooklyn,2025,40.67619,-73.9165,14,8,215,215,0,31,29,533,New Construction,28,0,0,28,7,Serious injuries only,13.02,0.144,1.25,both,False,False,False
+11234,Brooklyn,2022,40.62176,-73.92433,0,0,0,0,0,0,0,0,No completions,24,3,3,23,8,Fatal crash recorded,,,1.29,transport only,False,False,False
+11234,Brooklyn,2023,40.62176,-73.92433,0,0,0,0,0,0,0,11,No completions,41,0,0,48,15,Serious injuries only,,,1.54,transport only,False,False,False
+11234,Brooklyn,2024,40.62176,-73.92433,0,0,0,0,0,0,0,8,No completions,27,2,2,31,8,Fatal crash recorded,,,1.44,transport only,False,False,False
+11234,Brooklyn,2025,40.62176,-73.92433,10,5,170,25,145,0,132,145,Preservation,38,3,3,43,9,Fatal crash recorded,22.35,0.0,1.37,both,False,False,False
+11235,Brooklyn,2022,40.58537,-73.95246,3,3,48,48,0,0,0,64,New Construction,22,4,4,19,7,Fatal crash recorded,45.83,0.0,1.18,both,False,False,False
+11235,Brooklyn,2023,40.58537,-73.95246,3,3,209,55,154,154,0,23,Preservation,23,1,1,23,4,Fatal crash recorded,11.0,0.737,1.17,both,False,False,False
+11235,Brooklyn,2024,40.58537,-73.95246,1,1,9,9,0,0,0,602,New Construction,20,2,2,19,2,Fatal crash recorded,222.22,0.0,1.05,both,True,True,False
+11235,Brooklyn,2025,40.58537,-73.95246,4,4,89,89,0,0,0,569,New Construction,30,0,0,31,13,Serious injuries only,33.71,0.0,1.47,both,False,False,False
+11236,Brooklyn,2022,40.64098,-73.90438,0,0,0,0,0,0,0,0,No completions,38,5,5,40,10,Fatal crash recorded,,,1.32,transport only,False,False,False
+11236,Brooklyn,2023,40.64098,-73.90438,1,1,6,6,0,0,0,12,New Construction,45,2,2,45,18,Fatal crash recorded,750.0,0.0,1.4,both,True,True,False
+11236,Brooklyn,2024,40.64098,-73.90438,0,0,0,0,0,0,0,0,No completions,39,3,3,41,19,Fatal crash recorded,,,1.54,transport only,False,False,False
+11236,Brooklyn,2025,40.64098,-73.90438,0,0,0,0,0,0,0,1,No completions,39,1,1,43,7,Fatal crash recorded,,,1.28,transport only,False,False,False
+11237,Brooklyn,2022,40.70383,-73.92175,6,6,114,114,0,0,0,164,New Construction,19,1,1,18,2,Fatal crash recorded,16.67,0.0,1.05,both,False,False,False
+11237,Brooklyn,2023,40.70383,-73.92175,5,5,174,168,6,5,1,141,New Construction,11,0,0,12,0,Serious injuries only,6.32,0.029,1.09,both,False,False,False
+11237,Brooklyn,2024,40.70383,-73.92175,2,2,72,66,6,4,2,6,New Construction,11,4,4,9,2,Fatal crash recorded,15.28,0.056,1.0,both,False,False,False
+11237,Brooklyn,2025,40.70383,-73.92175,3,2,62,62,0,7,10,155,New Construction,22,0,0,23,3,Serious injuries only,35.48,0.113,1.18,both,False,False,False
+11238,Brooklyn,2022,40.68038,-73.96364,9,8,294,266,28,15,12,964,New Construction,20,2,2,19,3,Fatal crash recorded,6.8,0.051,1.1,both,False,False,False
+11238,Brooklyn,2023,40.68038,-73.96364,14,7,744,344,400,388,74,1228,Preservation,19,1,1,18,0,Fatal crash recorded,2.55,0.522,0.95,both,False,False,False
+11238,Brooklyn,2024,40.68038,-73.96364,7,7,1452,1452,0,7,136,782,New Construction,19,0,0,20,2,Serious injuries only,1.31,0.005,1.16,both,False,False,True
+11238,Brooklyn,2025,40.68038,-73.96364,6,6,110,95,15,5,13,330,New Construction,21,2,2,21,15,Fatal crash recorded,19.09,0.045,1.71,both,False,False,False
+11239,Brooklyn,2022,40.65361,-73.87629,0,0,0,0,0,0,0,240,No completions,13,1,1,12,14,Fatal crash recorded,,,2.0,transport only,False,False,False
+11239,Brooklyn,2023,40.65361,-73.87629,0,0,0,0,0,0,0,0,No completions,3,0,0,3,1,Serious injuries only,,,1.33,transport only,False,False,False
+11239,Brooklyn,2024,40.65361,-73.87629,30,1,240,240,0,120,119,1204,New Construction,6,0,0,6,1,Serious injuries only,2.5,0.5,1.17,both,False,False,False
+11239,Brooklyn,2025,40.65361,-73.87629,1,1,452,452,0,292,159,0,New Construction,10,1,1,9,0,Fatal crash recorded,2.21,0.646,0.9,both,False,False,False
+11249,Brooklyn,2022,40.7112,-73.96444,1,1,37,37,0,0,0,933,New Construction,7,1,1,7,0,Fatal crash recorded,18.92,0.0,1.0,both,False,False,False
+11249,Brooklyn,2023,40.7112,-73.96444,0,0,0,0,0,0,0,323,No completions,16,0,0,16,4,Serious injuries only,,,1.25,transport only,False,False,False
+11249,Brooklyn,2024,40.7112,-73.96444,2,2,378,378,0,0,66,84,New Construction,6,1,1,6,1,Fatal crash recorded,1.59,0.0,1.17,both,False,False,False
+11249,Brooklyn,2025,40.7112,-73.96444,4,4,223,223,0,0,26,101,New Construction,11,1,1,11,2,Fatal crash recorded,4.93,0.0,1.18,both,False,False,False
+11251,Brooklyn,2022,40.70139,-73.9607,0,0,0,0,0,0,0,0,No completions,5,0,0,5,0,Serious injuries only,,,1.0,transport only,False,False,False
+11251,Brooklyn,2023,40.70139,-73.9607,0,0,0,0,0,0,0,0,No completions,4,0,0,4,1,Serious injuries only,,,1.25,transport only,False,False,False
+11251,Brooklyn,2024,40.70139,-73.9607,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+11251,Brooklyn,2025,40.70139,-73.9607,0,0,0,0,0,0,0,0,No completions,5,0,0,6,3,Serious injuries only,,,1.8,transport only,False,False,False
+10001,Manhattan,2022,40.7506,-73.99672,0,0,0,0,0,0,0,0,No completions,13,0,0,13,0,Serious injuries only,,,1.0,transport only,False,False,False
+10001,Manhattan,2023,40.7506,-73.99672,2,2,1418,1418,0,94,238,0,New Construction,26,2,2,24,9,Fatal crash recorded,1.83,0.066,1.27,both,False,False,True
+10001,Manhattan,2024,40.7506,-73.99672,1,1,112,112,0,0,35,0,New Construction,19,0,0,22,18,Serious injuries only,16.96,0.0,2.11,both,False,False,False
+10001,Manhattan,2025,40.7506,-73.99672,1,1,277,277,0,31,25,292,New Construction,18,1,1,17,3,Fatal crash recorded,6.5,0.112,1.11,both,False,False,False
+10002,Manhattan,2022,40.71716,-73.98725,2,2,195,195,0,74,56,316,New Construction,24,2,2,29,5,Fatal crash recorded,12.31,0.379,1.42,both,False,False,False
+10002,Manhattan,2023,40.71716,-73.98725,1,1,59,59,0,0,6,0,New Construction,31,2,2,30,7,Fatal crash recorded,52.54,0.0,1.19,both,False,False,False
+10002,Manhattan,2024,40.71716,-73.98725,3,3,635,635,0,190,118,325,New Construction,31,2,5,31,12,Fatal crash recorded,4.88,0.299,1.39,both,False,False,False
+10002,Manhattan,2025,40.71716,-73.98725,1,1,172,0,172,158,12,1527,Preservation,20,1,1,21,3,Fatal crash recorded,11.63,0.919,1.2,both,False,False,False
+10003,Manhattan,2022,40.73245,-73.9898,1,1,151,0,151,149,1,0,Preservation,7,1,1,7,1,Fatal crash recorded,4.64,0.987,1.14,both,False,False,False
+10003,Manhattan,2023,40.73245,-73.9898,0,0,0,0,0,0,0,0,No completions,13,1,1,13,2,Fatal crash recorded,,,1.15,transport only,False,False,False
+10003,Manhattan,2024,40.73245,-73.9898,1,1,239,0,239,0,52,239,Preservation,16,0,0,16,0,Serious injuries only,6.69,0.0,1.0,both,False,False,False
+10003,Manhattan,2025,40.73245,-73.9898,1,1,42,0,42,41,0,129,Preservation,24,2,2,23,2,Fatal crash recorded,57.14,0.976,1.04,both,False,False,False
+10004,Manhattan,2022,40.70396,-74.01292,0,0,0,0,0,0,0,0,No completions,1,0,0,1,1,Serious injuries only,,,2.0,transport only,False,False,False
+10004,Manhattan,2023,40.70396,-74.01292,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10004,Manhattan,2024,40.70396,-74.01292,0,0,0,0,0,0,0,1320,No completions,7,0,0,7,1,Serious injuries only,,,1.14,transport only,False,False,False
+10004,Manhattan,2025,40.70396,-74.01292,0,0,0,0,0,0,0,571,No completions,2,0,0,2,0,Serious injuries only,,,1.0,transport only,False,False,False
+10005,Manhattan,2022,40.70691,-74.00674,0,0,0,0,0,0,0,0,No completions,3,0,0,3,0,Serious injuries only,,,1.0,transport only,False,False,False
+10005,Manhattan,2023,40.70691,-74.00674,0,0,0,0,0,0,0,0,No completions,2,0,0,2,0,Serious injuries only,,,1.0,transport only,False,False,False
+10005,Manhattan,2024,40.70691,-74.00674,0,0,0,0,0,0,0,0,No completions,2,0,0,2,0,Serious injuries only,,,1.0,transport only,False,False,False
+10005,Manhattan,2025,40.70691,-74.00674,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10006,Manhattan,2022,40.71023,-74.01477,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10006,Manhattan,2023,40.71023,-74.01477,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10006,Manhattan,2024,40.71023,-74.01477,0,0,0,0,0,0,0,0,No completions,2,0,0,2,0,Serious injuries only,,,1.0,transport only,False,False,False
+10006,Manhattan,2025,40.71023,-74.01477,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10007,Manhattan,2022,40.71293,-74.01005,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10007,Manhattan,2023,40.71293,-74.01005,1,1,209,209,0,0,21,0,New Construction,2,0,0,2,0,Serious injuries only,0.96,0.0,1.0,both,False,False,False
+10007,Manhattan,2024,40.71293,-74.01005,0,0,0,0,0,0,0,0,No completions,4,0,0,4,0,Serious injuries only,,,1.0,transport only,False,False,False
+10007,Manhattan,2025,40.71293,-74.01005,0,0,0,0,0,0,0,0,No completions,8,0,0,8,0,Serious injuries only,,,1.0,transport only,False,False,False
+10009,Manhattan,2022,40.72611,-73.97962,1,1,45,45,0,15,14,0,New Construction,22,1,1,22,4,Fatal crash recorded,48.89,0.333,1.18,both,False,False,False
+10009,Manhattan,2023,40.72611,-73.97962,5,3,136,0,136,89,2,163,Preservation,11,2,2,9,1,Fatal crash recorded,8.09,0.654,0.91,both,False,False,False
+10009,Manhattan,2024,40.72611,-73.97962,3,2,90,11,79,0,16,79,Preservation,12,2,2,12,2,Fatal crash recorded,13.33,0.0,1.17,both,False,False,False
+10009,Manhattan,2025,40.72611,-73.97962,5,5,117,48,69,69,14,212,Preservation,15,1,1,15,5,Fatal crash recorded,12.82,0.59,1.33,both,False,False,False
+10010,Manhattan,2022,40.73983,-73.98456,0,0,0,0,0,0,0,0,No completions,11,0,0,13,2,Serious injuries only,,,1.36,transport only,False,False,False
+10010,Manhattan,2023,40.73983,-73.98456,0,0,0,0,0,0,0,135,No completions,16,1,1,15,5,Fatal crash recorded,,,1.25,transport only,False,False,False
+10010,Manhattan,2024,40.73983,-73.98456,1,1,108,108,0,11,11,0,New Construction,15,0,0,17,0,Serious injuries only,13.89,0.102,1.13,both,False,False,False
+10010,Manhattan,2025,40.73983,-73.98456,0,0,0,0,0,0,0,33,No completions,10,0,0,13,2,Serious injuries only,,,1.5,transport only,False,False,False
+10011,Manhattan,2022,40.74204,-73.99954,0,0,0,0,0,0,0,26,No completions,13,2,2,12,3,Fatal crash recorded,,,1.15,transport only,False,False,False
+10011,Manhattan,2023,40.74204,-73.99954,0,0,0,0,0,0,0,337,No completions,12,1,1,11,2,Fatal crash recorded,,,1.08,transport only,False,False,False
+10011,Manhattan,2024,40.74204,-73.99954,1,1,190,190,0,19,25,0,New Construction,14,1,1,13,2,Fatal crash recorded,7.37,0.1,1.07,both,False,False,False
+10011,Manhattan,2025,40.74204,-73.99954,3,3,780,0,780,0,159,780,Preservation,15,0,0,15,4,Serious injuries only,1.92,0.0,1.27,both,False,False,False
+10012,Manhattan,2022,40.72549,-73.99579,0,0,0,0,0,0,0,0,No completions,8,0,0,9,1,Serious injuries only,,,1.25,transport only,False,False,False
+10012,Manhattan,2023,40.72549,-73.99579,0,0,0,0,0,0,0,0,No completions,12,1,1,11,4,Fatal crash recorded,,,1.25,transport only,False,False,False
+10012,Manhattan,2024,40.72549,-73.99579,0,0,0,0,0,0,0,0,No completions,13,2,2,11,0,Fatal crash recorded,,,0.85,transport only,False,False,False
+10012,Manhattan,2025,40.72549,-73.99579,0,0,0,0,0,0,0,0,No completions,7,0,0,7,2,Serious injuries only,,,1.29,transport only,False,False,False
+10013,Manhattan,2022,40.72103,-74.00277,1,1,100,100,0,0,25,0,New Construction,9,1,1,8,3,Fatal crash recorded,9.0,0.0,1.22,both,False,False,False
+10013,Manhattan,2023,40.72103,-74.00277,0,0,0,0,0,0,0,0,No completions,9,0,0,9,0,Serious injuries only,,,1.0,transport only,False,False,False
+10013,Manhattan,2024,40.72103,-74.00277,0,0,0,0,0,0,0,0,No completions,14,0,0,14,1,Serious injuries only,,,1.07,transport only,False,False,False
+10013,Manhattan,2025,40.72103,-74.00277,0,0,0,0,0,0,0,10,No completions,17,1,1,16,3,Fatal crash recorded,,,1.12,transport only,False,False,False
+10014,Manhattan,2022,40.73289,-74.00613,1,1,67,67,0,7,9,0,New Construction,8,0,0,9,1,Serious injuries only,11.94,0.104,1.25,both,False,False,False
+10014,Manhattan,2023,40.73289,-74.00613,0,0,0,0,0,0,0,0,No completions,8,0,0,8,3,Serious injuries only,,,1.38,transport only,False,False,False
+10014,Manhattan,2024,40.73289,-74.00613,0,0,0,0,0,0,0,176,No completions,5,0,0,5,0,Serious injuries only,,,1.0,transport only,False,False,False
+10014,Manhattan,2025,40.73289,-74.00613,0,0,0,0,0,0,0,385,No completions,10,1,1,9,0,Fatal crash recorded,,,0.9,transport only,False,False,False
+10016,Manhattan,2022,40.7449,-73.97856,0,0,0,0,0,0,0,0,No completions,16,2,2,14,3,Fatal crash recorded,,,1.06,transport only,False,False,False
+10016,Manhattan,2023,40.7449,-73.97856,2,2,273,49,224,218,7,224,Preservation,28,0,0,28,5,Serious injuries only,10.26,0.799,1.18,both,False,False,False
+10016,Manhattan,2024,40.7449,-73.97856,0,0,0,0,0,0,0,157,No completions,21,0,0,21,1,Serious injuries only,,,1.05,transport only,False,False,False
+10016,Manhattan,2025,40.7449,-73.97856,1,1,254,0,254,0,64,670,Preservation,23,2,2,23,3,Fatal crash recorded,9.06,0.0,1.13,both,False,False,False
+10017,Manhattan,2022,40.75186,-73.97314,0,0,0,0,0,0,0,0,No completions,7,0,0,10,4,Serious injuries only,,,2.0,transport only,False,False,False
+10017,Manhattan,2023,40.75186,-73.97314,0,0,0,0,0,0,0,131,No completions,15,1,1,15,0,Fatal crash recorded,,,1.0,transport only,False,False,False
+10017,Manhattan,2024,40.75186,-73.97314,0,0,0,0,0,0,0,0,No completions,9,0,0,9,0,Serious injuries only,,,1.0,transport only,False,False,False
+10017,Manhattan,2025,40.75186,-73.97314,0,0,0,0,0,0,0,0,No completions,15,0,0,15,3,Serious injuries only,,,1.2,transport only,False,False,False
+10018,Manhattan,2022,40.75481,-73.9924,0,0,0,0,0,0,0,660,No completions,10,1,1,9,0,Fatal crash recorded,,,0.9,transport only,False,False,False
+10018,Manhattan,2023,40.75481,-73.9924,0,0,0,0,0,0,0,0,No completions,14,1,1,16,5,Fatal crash recorded,,,1.5,transport only,False,False,False
+10018,Manhattan,2024,40.75481,-73.9924,2,2,1122,1122,0,54,113,0,New Construction,22,1,1,22,1,Fatal crash recorded,1.96,0.048,1.05,both,False,False,True
+10018,Manhattan,2025,40.75481,-73.9924,1,1,453,453,0,0,47,0,New Construction,14,1,1,14,2,Fatal crash recorded,3.09,0.0,1.14,both,False,False,False
+10019,Manhattan,2022,40.76545,-73.9863,0,0,0,0,0,0,0,0,No completions,26,0,0,26,1,Serious injuries only,,,1.04,transport only,False,False,False
+10019,Manhattan,2023,40.76545,-73.9863,2,1,11,0,11,10,1,0,Preservation,20,0,0,21,2,Serious injuries only,181.82,0.909,1.15,both,True,True,False
+10019,Manhattan,2024,40.76545,-73.9863,0,0,0,0,0,0,0,112,No completions,27,3,3,28,4,Fatal crash recorded,,,1.19,transport only,False,False,False
+10019,Manhattan,2025,40.76545,-73.9863,2,2,764,0,764,0,167,902,Preservation,27,2,2,25,4,Fatal crash recorded,3.53,0.0,1.07,both,False,False,False
+10020,Manhattan,2022,40.76161,-73.98152,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10020,Manhattan,2023,40.76161,-73.98152,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10020,Manhattan,2024,40.76161,-73.98152,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10020,Manhattan,2025,40.76161,-73.98152,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10021,Manhattan,2022,40.76856,-73.95584,0,0,0,0,0,0,0,0,No completions,12,2,3,12,2,Fatal crash recorded,,,1.17,transport only,False,False,False
+10021,Manhattan,2023,40.76856,-73.95584,0,0,0,0,0,0,0,100,No completions,11,0,0,17,3,Serious injuries only,,,1.82,transport only,False,False,False
+10021,Manhattan,2024,40.76856,-73.95584,0,0,0,0,0,0,0,0,No completions,8,0,0,8,3,Serious injuries only,,,1.38,transport only,False,False,False
+10021,Manhattan,2025,40.76856,-73.95584,1,1,100,0,100,0,99,0,Preservation,11,2,2,9,1,Fatal crash recorded,11.0,0.0,0.91,both,False,False,False
+10022,Manhattan,2022,40.75957,-73.96738,1,1,130,130,0,0,13,0,New Construction,10,0,0,11,1,Serious injuries only,7.69,0.0,1.2,both,False,False,False
+10022,Manhattan,2023,40.75957,-73.96738,0,0,0,0,0,0,0,194,No completions,23,0,0,25,7,Serious injuries only,,,1.39,transport only,False,False,False
+10022,Manhattan,2024,40.75957,-73.96738,0,0,0,0,0,0,0,0,No completions,16,0,0,16,1,Serious injuries only,,,1.06,transport only,False,False,False
+10022,Manhattan,2025,40.75957,-73.96738,0,0,0,0,0,0,0,12,No completions,24,2,2,22,4,Fatal crash recorded,,,1.08,transport only,False,False,False
+10023,Manhattan,2022,40.77523,-73.98057,0,0,0,0,0,0,0,174,No completions,14,0,0,15,3,Serious injuries only,,,1.29,transport only,False,False,False
+10023,Manhattan,2023,40.77523,-73.98057,0,0,0,0,0,0,0,0,No completions,17,0,0,17,3,Serious injuries only,,,1.18,transport only,False,False,False
+10023,Manhattan,2024,40.77523,-73.98057,1,1,19,19,0,0,1,0,New Construction,14,0,0,14,3,Serious injuries only,73.68,0.0,1.21,both,True,True,False
+10023,Manhattan,2025,40.77523,-73.98057,2,2,677,0,677,0,277,503,Preservation,10,0,0,10,6,Serious injuries only,1.48,0.0,1.6,both,False,False,False
+10024,Manhattan,2022,40.78552,-73.97657,0,0,0,0,0,0,0,189,No completions,7,0,0,7,1,Serious injuries only,,,1.14,transport only,False,False,False
+10024,Manhattan,2023,40.78552,-73.97657,3,3,179,0,179,126,50,72,Preservation,15,0,0,16,1,Serious injuries only,8.38,0.704,1.13,both,False,False,False
+10024,Manhattan,2024,40.78552,-73.97657,3,1,40,0,40,35,4,40,Preservation,12,0,0,12,2,Serious injuries only,30.0,0.875,1.17,both,False,False,False
+10024,Manhattan,2025,40.78552,-73.97657,1,1,202,0,202,201,0,264,Preservation,16,2,2,17,2,Fatal crash recorded,7.92,0.995,1.19,both,False,False,False
+10025,Manhattan,2022,40.79832,-73.96708,2,1,28,0,28,0,0,200,Preservation,17,3,3,15,9,Fatal crash recorded,60.71,0.0,1.41,both,False,False,False
+10025,Manhattan,2023,40.79832,-73.96708,1,1,230,0,230,222,3,488,Preservation,22,0,0,23,5,Serious injuries only,9.57,0.965,1.27,both,False,False,False
+10025,Manhattan,2024,40.79832,-73.96708,5,5,837,171,666,309,122,571,Preservation,15,1,1,14,0,Fatal crash recorded,1.79,0.369,0.93,both,False,False,False
+10025,Manhattan,2025,40.79832,-73.96708,18,4,478,0,478,243,24,537,Preservation,19,0,0,21,0,Serious injuries only,3.97,0.508,1.11,both,False,False,False
+10026,Manhattan,2022,40.80234,-73.95382,2,2,46,0,46,10,30,59,Preservation,16,1,1,21,1,Fatal crash recorded,34.78,0.217,1.38,both,False,False,False
+10026,Manhattan,2023,40.80234,-73.95382,4,4,385,51,334,203,168,51,Preservation,5,1,1,4,1,Fatal crash recorded,1.3,0.527,1.0,both,False,False,False
+10026,Manhattan,2024,40.80234,-73.95382,13,4,336,0,336,246,37,630,Preservation,9,1,1,8,1,Fatal crash recorded,2.68,0.732,1.0,both,False,False,False
+10026,Manhattan,2025,40.80234,-73.95382,1,1,102,0,102,101,0,102,Preservation,9,0,0,9,0,Serious injuries only,8.82,0.99,1.0,both,False,False,False
+10027,Manhattan,2022,40.81148,-73.95249,3,3,124,124,0,29,37,214,New Construction,22,1,1,22,3,Fatal crash recorded,17.74,0.234,1.14,both,False,False,False
+10027,Manhattan,2023,40.81148,-73.95249,3,3,142,40,102,89,12,107,Preservation,29,0,0,32,6,Serious injuries only,20.42,0.627,1.31,both,False,False,False
+10027,Manhattan,2024,40.81148,-73.95249,8,5,263,169,94,149,83,327,New Construction,19,0,0,19,0,Serious injuries only,7.22,0.567,1.0,both,False,False,False
+10027,Manhattan,2025,40.81148,-73.95249,3,3,71,71,0,0,0,1023,New Construction,21,0,0,22,5,Serious injuries only,29.58,0.0,1.29,both,False,False,False
+10028,Manhattan,2022,40.77672,-73.95286,0,0,0,0,0,0,0,198,No completions,11,1,1,11,2,Fatal crash recorded,,,1.18,transport only,False,False,False
+10028,Manhattan,2023,40.77672,-73.95286,1,1,140,140,0,14,17,0,New Construction,11,1,1,10,2,Fatal crash recorded,7.86,0.1,1.09,both,False,False,False
+10028,Manhattan,2024,40.77672,-73.95286,0,0,0,0,0,0,0,0,No completions,9,0,0,9,2,Serious injuries only,,,1.22,transport only,False,False,False
+10028,Manhattan,2025,40.77672,-73.95286,2,2,198,198,0,13,20,149,New Construction,6,0,0,7,0,Serious injuries only,3.03,0.066,1.17,both,False,False,False
+10029,Manhattan,2022,40.79251,-73.9441,2,2,370,361,9,180,108,240,New Construction,14,1,1,13,2,Fatal crash recorded,3.78,0.486,1.07,both,False,False,False
+10029,Manhattan,2023,40.79251,-73.9441,4,4,360,88,272,242,20,396,Preservation,33,0,0,34,8,Serious injuries only,9.17,0.672,1.27,both,False,False,False
+10029,Manhattan,2024,40.79251,-73.9441,8,5,1929,187,1742,1728,7,750,Preservation,25,2,3,23,9,Fatal crash recorded,1.3,0.896,1.28,both,False,False,True
+10029,Manhattan,2025,40.79251,-73.9441,3,3,396,396,0,142,72,0,New Construction,30,1,1,29,10,Fatal crash recorded,7.58,0.359,1.3,both,False,False,False
+10030,Manhattan,2022,40.81858,-73.94224,15,4,276,17,259,82,176,77,Preservation,4,0,0,6,0,Serious injuries only,1.45,0.297,1.5,both,False,False,False
+10030,Manhattan,2023,40.81858,-73.94224,1,1,8,8,0,0,0,100,New Construction,11,0,0,11,0,Serious injuries only,137.5,0.0,1.0,both,True,True,False
+10030,Manhattan,2024,40.81858,-73.94224,8,5,115,48,67,28,6,57,Preservation,14,0,0,20,0,Serious injuries only,12.17,0.243,1.43,both,False,False,False
+10030,Manhattan,2025,40.81858,-73.94224,3,3,115,48,67,47,13,173,Preservation,5,1,1,4,1,Fatal crash recorded,4.35,0.409,1.0,both,False,False,False
+10031,Manhattan,2022,40.82434,-73.95064,2,2,585,0,585,0,226,654,Preservation,11,2,2,9,2,Fatal crash recorded,1.88,0.0,1.0,both,False,False,False
+10031,Manhattan,2023,40.82434,-73.95064,2,2,371,238,133,0,98,543,New Construction,7,0,0,9,1,Serious injuries only,1.89,0.0,1.43,both,False,False,False
+10031,Manhattan,2024,40.82434,-73.95064,10,4,193,28,165,82,20,84,Preservation,19,0,0,20,3,Serious injuries only,9.84,0.425,1.21,both,False,False,False
+10031,Manhattan,2025,40.82434,-73.95064,5,3,90,0,90,56,22,114,Preservation,12,1,1,12,4,Fatal crash recorded,13.33,0.622,1.33,both,False,False,False
+10032,Manhattan,2022,40.83751,-73.94171,4,2,81,16,65,58,6,201,Preservation,8,1,1,7,0,Fatal crash recorded,9.88,0.716,0.88,both,False,False,False
+10032,Manhattan,2023,40.83751,-73.94171,8,3,98,14,84,58,23,42,Preservation,27,3,3,25,9,Fatal crash recorded,27.55,0.592,1.26,both,False,False,False
+10032,Manhattan,2024,40.83751,-73.94171,0,0,0,0,0,0,0,76,No completions,11,1,1,10,4,Fatal crash recorded,,,1.27,transport only,False,False,False
+10032,Manhattan,2025,40.83751,-73.94171,3,3,485,26,459,349,104,104,Preservation,18,1,1,18,10,Fatal crash recorded,3.71,0.72,1.56,both,False,False,False
+10033,Manhattan,2022,40.84763,-73.93414,1,1,47,0,47,43,3,0,Preservation,24,3,5,21,3,Fatal crash recorded,51.06,0.915,1.0,both,False,False,False
+10033,Manhattan,2023,40.84763,-73.93414,0,0,0,0,0,0,0,55,No completions,18,2,3,21,7,Fatal crash recorded,,,1.56,transport only,False,False,False
+10033,Manhattan,2024,40.84763,-73.93414,5,2,975,15,960,73,673,960,Preservation,16,3,3,14,5,Fatal crash recorded,1.64,0.075,1.19,both,False,False,False
+10033,Manhattan,2025,40.84763,-73.93414,10,3,330,0,330,166,87,296,Preservation,17,0,0,18,5,Serious injuries only,5.15,0.503,1.35,both,False,False,False
+10034,Manhattan,2022,40.86501,-73.92106,0,0,0,0,0,0,0,698,No completions,23,1,2,22,9,Fatal crash recorded,,,1.35,transport only,False,False,False
+10034,Manhattan,2023,40.86501,-73.92106,1,1,100,0,100,89,8,1072,Preservation,15,0,0,17,26,Serious injuries only,15.0,0.89,2.87,both,False,False,False
+10034,Manhattan,2024,40.86501,-73.92106,1,1,174,174,0,79,94,86,New Construction,12,0,0,12,3,Serious injuries only,6.9,0.454,1.25,both,False,False,False
+10034,Manhattan,2025,40.86501,-73.92106,4,4,770,725,45,297,179,45,New Construction,8,0,0,8,1,Serious injuries only,1.04,0.386,1.12,both,False,False,False
+10035,Manhattan,2022,40.80209,-73.93763,3,3,648,648,0,101,148,394,New Construction,19,0,0,22,8,Serious injuries only,2.93,0.156,1.58,both,False,False,False
+10035,Manhattan,2023,40.80209,-73.93763,3,3,155,155,0,0,0,656,New Construction,20,1,1,20,2,Fatal crash recorded,12.9,0.0,1.1,both,False,False,False
+10035,Manhattan,2024,40.80209,-73.93763,4,4,419,285,134,138,40,511,New Construction,24,1,1,27,5,Fatal crash recorded,5.73,0.329,1.33,both,False,False,False
+10035,Manhattan,2025,40.80209,-73.93763,3,3,354,280,74,90,38,1162,New Construction,21,1,1,23,1,Fatal crash recorded,5.93,0.254,1.14,both,False,False,False
+10036,Manhattan,2022,40.75921,-73.99065,2,2,493,493,0,0,85,700,New Construction,18,2,2,16,2,Fatal crash recorded,3.65,0.0,1.0,both,False,False,False
+10036,Manhattan,2023,40.75921,-73.99065,1,1,921,0,921,0,184,921,Preservation,28,1,1,27,7,Fatal crash recorded,3.04,0.0,1.21,both,False,False,False
+10036,Manhattan,2024,40.75921,-73.99065,2,2,345,0,345,332,12,465,Preservation,22,1,1,21,3,Fatal crash recorded,6.38,0.962,1.09,both,False,False,False
+10036,Manhattan,2025,40.75921,-73.99065,3,3,703,330,373,33,109,668,Preservation,22,1,1,21,4,Fatal crash recorded,3.13,0.047,1.14,both,False,False,False
+10037,Manhattan,2022,40.81326,-73.93825,6,2,240,0,240,198,13,0,Preservation,14,0,0,14,1,Serious injuries only,5.83,0.825,1.07,both,False,False,False
+10037,Manhattan,2023,40.81326,-73.93825,0,0,0,0,0,0,0,21,No completions,8,0,0,8,0,Serious injuries only,,,1.0,transport only,False,False,False
+10037,Manhattan,2024,40.81326,-73.93825,2,2,24,0,24,9,2,89,Preservation,15,2,2,14,4,Fatal crash recorded,62.5,0.375,1.2,both,False,False,False
+10037,Manhattan,2025,40.81326,-73.93825,0,0,0,0,0,0,0,0,No completions,16,1,1,17,4,Fatal crash recorded,,,1.31,transport only,False,False,False
+10038,Manhattan,2022,40.70871,-73.99885,0,0,0,0,0,0,0,0,No completions,4,1,1,5,0,Fatal crash recorded,,,1.25,transport only,False,False,False
+10038,Manhattan,2023,40.70871,-73.99885,0,0,0,0,0,0,0,0,No completions,6,0,0,6,1,Serious injuries only,,,1.17,transport only,False,False,False
+10038,Manhattan,2024,40.70871,-73.99885,0,0,0,0,0,0,0,0,No completions,8,0,0,8,4,Serious injuries only,,,1.5,transport only,False,False,False
+10038,Manhattan,2025,40.70871,-73.99885,0,0,0,0,0,0,0,0,No completions,10,0,0,11,3,Serious injuries only,,,1.4,transport only,False,False,False
+10039,Manhattan,2022,40.82557,-73.93754,1,1,9,0,9,8,1,113,Preservation,10,1,1,10,4,Fatal crash recorded,111.11,0.889,1.4,both,True,True,False
+10039,Manhattan,2023,40.82557,-73.93754,16,5,689,27,662,266,205,771,Preservation,11,0,0,11,10,Serious injuries only,1.6,0.386,1.91,both,False,False,False
+10039,Manhattan,2024,40.82557,-73.93754,9,2,179,0,179,93,35,0,Preservation,7,0,0,7,0,Serious injuries only,3.91,0.52,1.0,both,False,False,False
+10039,Manhattan,2025,40.82557,-73.93754,11,3,177,60,117,56,45,14,Preservation,9,0,0,11,2,Serious injuries only,5.08,0.316,1.44,both,False,False,False
+10040,Manhattan,2022,40.85903,-73.92895,1,1,15,0,15,0,0,0,Preservation,10,0,0,10,2,Serious injuries only,66.67,0.0,1.2,both,False,True,False
+10040,Manhattan,2023,40.85903,-73.92895,2,2,223,223,0,163,0,0,New Construction,10,0,0,11,4,Serious injuries only,4.48,0.731,1.5,both,False,False,False
+10040,Manhattan,2024,40.85903,-73.92895,0,0,0,0,0,0,0,314,No completions,10,1,1,9,3,Fatal crash recorded,,,1.2,transport only,False,False,False
+10040,Manhattan,2025,40.85903,-73.92895,3,2,187,92,95,21,30,95,Preservation,6,0,0,7,0,Serious injuries only,3.21,0.112,1.17,both,False,False,False
+10065,Manhattan,2022,40.76409,-73.96256,0,0,0,0,0,0,0,0,No completions,14,0,0,14,2,Serious injuries only,,,1.14,transport only,False,False,False
+10065,Manhattan,2023,40.76409,-73.96256,0,0,0,0,0,0,0,108,No completions,14,1,1,13,0,Fatal crash recorded,,,0.93,transport only,False,False,False
+10065,Manhattan,2024,40.76409,-73.96256,0,0,0,0,0,0,0,0,No completions,9,0,0,9,2,Serious injuries only,,,1.22,transport only,False,False,False
+10065,Manhattan,2025,40.76409,-73.96256,0,0,0,0,0,0,0,53,No completions,9,0,0,9,1,Serious injuries only,,,1.11,transport only,False,False,False
+10069,Manhattan,2022,40.77631,-73.98904,0,0,0,0,0,0,0,0,No completions,6,0,0,6,1,Serious injuries only,,,1.17,transport only,False,False,False
+10069,Manhattan,2023,40.77631,-73.98904,0,0,0,0,0,0,0,0,No completions,2,1,1,1,1,Fatal crash recorded,,,1.0,transport only,False,False,False
+10069,Manhattan,2024,40.77631,-73.98904,0,0,0,0,0,0,0,0,No completions,2,0,0,2,0,Serious injuries only,,,1.0,transport only,False,False,False
+10069,Manhattan,2025,40.77631,-73.98904,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10075,Manhattan,2022,40.77409,-73.95898,0,0,0,0,0,0,0,0,No completions,11,1,1,10,1,Fatal crash recorded,,,1.0,transport only,False,False,False
+10075,Manhattan,2023,40.77409,-73.95898,0,0,0,0,0,0,0,0,No completions,6,0,0,6,0,Serious injuries only,,,1.0,transport only,False,False,False
+10075,Manhattan,2024,40.77409,-73.95898,0,0,0,0,0,0,0,146,No completions,9,1,1,8,5,Fatal crash recorded,,,1.44,transport only,False,False,False
+10075,Manhattan,2025,40.77409,-73.95898,0,0,0,0,0,0,0,12,No completions,7,1,1,7,1,Fatal crash recorded,,,1.14,transport only,False,False,False
+10111,Manhattan,2022,40.76074,-73.97712,0,0,0,0,0,0,0,0,No completions,2,0,0,2,0,Serious injuries only,,,1.0,transport only,False,False,False
+10111,Manhattan,2023,40.76074,-73.97712,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10111,Manhattan,2024,40.76074,-73.97712,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10111,Manhattan,2025,40.76074,-73.97712,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10112,Manhattan,2022,40.76085,-73.97884,0,0,0,0,0,0,0,0,No completions,2,0,0,2,0,Serious injuries only,,,1.0,transport only,False,False,False
+10112,Manhattan,2023,40.76085,-73.97884,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10112,Manhattan,2024,40.76085,-73.97884,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10112,Manhattan,2025,40.76085,-73.97884,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10128,Manhattan,2022,40.78301,-73.94878,0,0,0,0,0,0,0,132,No completions,13,2,2,11,2,Fatal crash recorded,,,1.0,transport only,False,False,False
+10128,Manhattan,2023,40.78301,-73.94878,1,1,208,0,208,0,43,317,Preservation,9,1,1,9,1,Fatal crash recorded,4.33,0.0,1.11,both,False,False,False
+10128,Manhattan,2024,40.78301,-73.94878,0,0,0,0,0,0,0,0,No completions,13,2,2,11,2,Fatal crash recorded,,,1.0,transport only,False,False,False
+10128,Manhattan,2025,40.78301,-73.94878,0,0,0,0,0,0,0,36,No completions,12,1,1,11,1,Fatal crash recorded,,,1.0,transport only,False,False,False
+10168,Manhattan,2022,40.75212,-73.97768,0,0,0,0,0,0,0,0,No completions,3,0,0,3,0,Serious injuries only,,,1.0,transport only,False,False,False
+10168,Manhattan,2023,40.75212,-73.97768,0,0,0,0,0,0,0,0,No completions,1,0,0,2,10,Serious injuries only,,,12.0,transport only,False,False,False
+10168,Manhattan,2024,40.75212,-73.97768,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10168,Manhattan,2025,40.75212,-73.97768,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10170,Manhattan,2022,40.75226,-73.97547,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10170,Manhattan,2023,40.75226,-73.97547,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10170,Manhattan,2024,40.75226,-73.97547,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10170,Manhattan,2025,40.75226,-73.97547,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10172,Manhattan,2022,40.75618,-73.97419,0,0,0,0,0,0,0,0,No completions,4,0,0,4,0,Serious injuries only,,,1.0,transport only,False,False,False
+10172,Manhattan,2023,40.75618,-73.97419,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10172,Manhattan,2024,40.75618,-73.97419,0,0,0,0,0,0,0,0,No completions,3,0,0,3,2,Serious injuries only,,,1.67,transport only,False,False,False
+10172,Manhattan,2025,40.75618,-73.97419,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10278,Manhattan,2022,40.71571,-74.00328,0,0,0,0,0,0,0,0,No completions,2,1,1,1,0,Fatal crash recorded,,,0.5,transport only,False,False,False
+10278,Manhattan,2023,40.71571,-74.00328,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10278,Manhattan,2024,40.71571,-74.00328,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10278,Manhattan,2025,40.71571,-74.00328,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10280,Manhattan,2022,40.70739,-74.01701,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10280,Manhattan,2023,40.70739,-74.01701,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10280,Manhattan,2024,40.70739,-74.01701,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10280,Manhattan,2025,40.70739,-74.01701,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10281,Manhattan,2022,40.71301,-74.01564,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10281,Manhattan,2023,40.71301,-74.01564,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10281,Manhattan,2024,40.71301,-74.01564,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10281,Manhattan,2025,40.71301,-74.01564,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10282,Manhattan,2022,40.71626,-74.0133,0,0,0,0,0,0,0,0,No completions,2,0,0,2,0,Serious injuries only,,,1.0,transport only,False,False,False
+10282,Manhattan,2023,40.71626,-74.0133,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10282,Manhattan,2024,40.71626,-74.0133,0,0,0,0,0,0,0,0,No completions,2,0,0,2,0,Serious injuries only,,,1.0,transport only,False,False,False
+10282,Manhattan,2025,40.71626,-74.0133,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+11001,Queens,2022,40.73363,-73.7064,0,0,0,0,0,0,0,0,No completions,1,0,0,1,1,Serious injuries only,,,2.0,transport only,False,False,False
+11001,Queens,2023,40.73363,-73.7064,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+11001,Queens,2024,40.73363,-73.7064,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+11001,Queens,2025,40.73363,-73.7064,0,0,0,0,0,0,0,0,No completions,3,0,0,3,0,Serious injuries only,,,1.0,transport only,False,False,False
+11004,Queens,2022,40.74568,-73.71119,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+11004,Queens,2023,40.74568,-73.71119,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+11004,Queens,2024,40.74568,-73.71119,0,0,0,0,0,0,0,0,No completions,3,0,0,3,1,Serious injuries only,,,1.33,transport only,False,False,False
+11004,Queens,2025,40.74568,-73.71119,0,0,0,0,0,0,0,0,No completions,3,0,0,3,0,Serious injuries only,,,1.0,transport only,False,False,False
+11040,Queens,2022,40.75325,-73.70274,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+11040,Queens,2023,40.75325,-73.70274,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+11040,Queens,2024,40.75325,-73.70274,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+11040,Queens,2025,40.75325,-73.70274,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+11101,Queens,2022,40.74895,-73.93789,6,5,1507,1507,0,281,76,289,New Construction,20,2,2,19,0,Fatal crash recorded,1.33,0.186,0.95,both,False,False,True
+11101,Queens,2023,40.74895,-73.93789,6,6,2206,2206,0,0,0,617,New Construction,32,2,2,31,8,Fatal crash recorded,1.45,0.0,1.22,both,False,False,True
+11101,Queens,2024,40.74895,-73.93789,6,6,466,466,0,0,7,3794,New Construction,25,2,2,23,6,Fatal crash recorded,5.36,0.0,1.16,both,False,False,False
+11101,Queens,2025,40.74895,-73.93789,11,11,2344,2344,0,37,84,1075,New Construction,30,1,1,29,8,Fatal crash recorded,1.28,0.016,1.23,both,False,False,True
+11102,Queens,2022,40.77164,-73.92708,6,6,293,91,202,0,0,586,Preservation,7,1,1,6,1,Fatal crash recorded,2.39,0.0,1.0,both,False,False,False
+11102,Queens,2023,40.77164,-73.92708,9,9,734,734,0,81,81,570,New Construction,7,1,1,6,0,Fatal crash recorded,0.95,0.11,0.86,both,False,False,False
+11102,Queens,2024,40.77164,-73.92708,10,10,594,594,0,0,24,700,New Construction,10,0,0,10,3,Serious injuries only,1.68,0.0,1.3,both,False,False,False
+11102,Queens,2025,40.77164,-73.92708,5,5,79,79,0,0,0,907,New Construction,7,0,0,8,5,Serious injuries only,8.86,0.0,1.86,both,False,False,False
+11103,Queens,2022,40.76334,-73.91347,3,3,52,52,0,0,0,33,New Construction,14,0,0,15,1,Serious injuries only,26.92,0.0,1.14,both,False,False,False
+11103,Queens,2023,40.76334,-73.91347,1,1,20,20,0,0,0,9,New Construction,11,2,2,10,1,Fatal crash recorded,55.0,0.0,1.0,both,False,False,False
+11103,Queens,2024,40.76334,-73.91347,1,1,7,7,0,0,0,10,New Construction,10,1,1,9,1,Fatal crash recorded,142.86,0.0,1.0,both,True,True,False
+11103,Queens,2025,40.76334,-73.91347,1,1,9,9,0,0,0,16,New Construction,13,0,0,13,0,Serious injuries only,144.44,0.0,1.0,both,True,True,False
+11104,Queens,2022,40.74458,-73.92135,1,1,10,10,0,0,0,20,New Construction,13,1,1,13,0,Fatal crash recorded,130.0,0.0,1.0,both,True,True,False
+11104,Queens,2023,40.74458,-73.92135,0,0,0,0,0,0,0,63,No completions,10,0,0,10,6,Serious injuries only,,,1.6,transport only,False,False,False
+11104,Queens,2024,40.74458,-73.92135,0,0,0,0,0,0,0,185,No completions,6,1,1,5,7,Fatal crash recorded,,,2.0,transport only,False,False,False
+11104,Queens,2025,40.74458,-73.92135,1,1,48,48,0,0,9,0,New Construction,11,0,0,12,5,Serious injuries only,22.92,0.0,1.55,both,False,False,False
+11105,Queens,2022,40.77292,-73.90813,3,3,30,30,0,0,0,99,New Construction,12,0,0,13,2,Serious injuries only,40.0,0.0,1.25,both,False,False,False
+11105,Queens,2023,40.77292,-73.90813,0,0,0,0,0,0,0,0,No completions,8,1,1,8,0,Fatal crash recorded,,,1.0,transport only,False,False,False
+11105,Queens,2024,40.77292,-73.90813,0,0,0,0,0,0,0,10,No completions,4,1,1,3,0,Fatal crash recorded,,,0.75,transport only,False,False,False
+11105,Queens,2025,40.77292,-73.90813,1,1,84,0,84,16,67,84,Preservation,7,3,5,4,2,Fatal crash recorded,8.33,0.19,0.86,both,False,False,False
+11106,Queens,2022,40.76253,-73.93149,1,1,103,103,0,102,0,54,New Construction,7,0,0,9,6,Serious injuries only,6.8,0.99,2.14,both,False,False,False
+11106,Queens,2023,40.76253,-73.93149,5,5,191,191,0,0,0,108,New Construction,10,0,0,10,1,Serious injuries only,5.24,0.0,1.1,both,False,False,False
+11106,Queens,2024,40.76253,-73.93149,1,1,41,41,0,0,0,588,New Construction,8,0,0,10,9,Serious injuries only,19.51,0.0,2.38,both,False,False,False
+11106,Queens,2025,40.76253,-73.93149,5,5,132,132,0,0,0,30,New Construction,9,0,0,10,0,Serious injuries only,6.82,0.0,1.11,both,False,False,False
+11354,Queens,2022,40.76486,-73.82842,0,0,0,0,0,0,0,7,No completions,21,2,2,22,7,Fatal crash recorded,,,1.38,transport only,False,False,False
+11354,Queens,2023,40.76486,-73.82842,0,0,0,0,0,0,0,8,No completions,21,1,1,22,3,Fatal crash recorded,,,1.19,transport only,False,False,False
+11354,Queens,2024,40.76486,-73.82842,0,0,0,0,0,0,0,80,No completions,22,0,0,24,8,Serious injuries only,,,1.45,transport only,False,False,False
+11354,Queens,2025,40.76486,-73.82842,2,2,52,52,0,0,0,8,New Construction,27,1,1,34,1,Fatal crash recorded,51.92,0.0,1.3,both,False,False,False
+11355,Queens,2022,40.75115,-73.82418,0,0,0,0,0,0,0,16,No completions,14,0,0,14,1,Serious injuries only,,,1.07,transport only,False,False,False
+11355,Queens,2023,40.75115,-73.82418,0,0,0,0,0,0,0,70,No completions,22,1,1,21,4,Fatal crash recorded,,,1.14,transport only,False,False,False
+11355,Queens,2024,40.75115,-73.82418,2,2,62,62,0,0,0,506,New Construction,23,2,2,21,1,Fatal crash recorded,37.1,0.0,0.96,both,False,False,False
+11355,Queens,2025,40.75115,-73.82418,4,1,506,0,506,61,175,10,Preservation,44,1,1,48,3,Fatal crash recorded,8.7,0.121,1.16,both,False,False,False
+11356,Queens,2022,40.78325,-73.84365,0,0,0,0,0,0,0,0,No completions,2,0,0,2,0,Serious injuries only,,,1.0,transport only,False,False,False
+11356,Queens,2023,40.78325,-73.84365,0,0,0,0,0,0,0,0,No completions,7,1,1,7,0,Fatal crash recorded,,,1.0,transport only,False,False,False
+11356,Queens,2024,40.78325,-73.84365,0,0,0,0,0,0,0,0,No completions,7,0,0,7,1,Serious injuries only,,,1.14,transport only,False,False,False
+11356,Queens,2025,40.78325,-73.84365,0,0,0,0,0,0,0,0,No completions,9,0,0,10,2,Serious injuries only,,,1.33,transport only,False,False,False
+11357,Queens,2022,40.78341,-73.81888,0,0,0,0,0,0,0,0,No completions,3,0,0,3,2,Serious injuries only,,,1.67,transport only,False,False,False
+11357,Queens,2023,40.78341,-73.81888,0,0,0,0,0,0,0,0,No completions,11,1,1,13,5,Fatal crash recorded,,,1.64,transport only,False,False,False
+11357,Queens,2024,40.78341,-73.81888,0,0,0,0,0,0,0,0,No completions,8,0,0,10,0,Serious injuries only,,,1.25,transport only,False,False,False
+11357,Queens,2025,40.78341,-73.81888,0,0,0,0,0,0,0,0,No completions,7,0,0,8,1,Serious injuries only,,,1.29,transport only,False,False,False
+11358,Queens,2022,40.75995,-73.80041,1,1,18,18,0,0,0,0,New Construction,3,2,2,1,1,Fatal crash recorded,16.67,0.0,0.67,both,False,True,False
+11358,Queens,2023,40.75995,-73.80041,0,0,0,0,0,0,0,6,No completions,9,0,0,9,3,Serious injuries only,,,1.33,transport only,False,False,False
+11358,Queens,2024,40.75995,-73.80041,0,0,0,0,0,0,0,0,No completions,11,0,0,11,0,Serious injuries only,,,1.0,transport only,False,False,False
+11358,Queens,2025,40.75995,-73.80041,0,0,0,0,0,0,0,0,No completions,13,0,0,16,0,Serious injuries only,,,1.23,transport only,False,False,False
+11360,Queens,2022,40.78159,-73.78581,0,0,0,0,0,0,0,0,No completions,4,0,0,4,0,Serious injuries only,,,1.0,transport only,False,False,False
+11360,Queens,2023,40.78159,-73.78581,0,0,0,0,0,0,0,0,No completions,3,0,0,4,0,Serious injuries only,,,1.33,transport only,False,False,False
+11360,Queens,2024,40.78159,-73.78581,0,0,0,0,0,0,0,0,No completions,15,0,0,23,6,Serious injuries only,,,1.93,transport only,False,False,False
+11360,Queens,2025,40.78159,-73.78581,0,0,0,0,0,0,0,0,No completions,9,0,0,9,0,Serious injuries only,,,1.0,transport only,False,False,False
+11361,Queens,2022,40.76021,-73.77389,0,0,0,0,0,0,0,0,No completions,6,0,0,6,5,Serious injuries only,,,1.83,transport only,False,False,False
+11361,Queens,2023,40.76021,-73.77389,0,0,0,0,0,0,0,0,No completions,8,0,0,8,4,Serious injuries only,,,1.5,transport only,False,False,False
+11361,Queens,2024,40.76021,-73.77389,0,0,0,0,0,0,0,15,No completions,5,0,0,5,3,Serious injuries only,,,1.6,transport only,False,False,False
+11361,Queens,2025,40.76021,-73.77389,1,1,15,15,0,0,0,46,New Construction,10,1,1,9,3,Fatal crash recorded,66.67,0.0,1.2,both,False,True,False
+11362,Queens,2022,40.75739,-73.7351,0,0,0,0,0,0,0,0,No completions,7,0,0,7,0,Serious injuries only,,,1.0,transport only,False,False,False
+11362,Queens,2023,40.75739,-73.7351,0,0,0,0,0,0,0,0,No completions,7,0,0,10,2,Serious injuries only,,,1.71,transport only,False,False,False
+11362,Queens,2024,40.75739,-73.7351,0,0,0,0,0,0,0,0,No completions,4,0,0,4,1,Serious injuries only,,,1.25,transport only,False,False,False
+11362,Queens,2025,40.75739,-73.7351,0,0,0,0,0,0,0,0,No completions,6,0,0,7,0,Serious injuries only,,,1.17,transport only,False,False,False
+11363,Queens,2022,40.76329,-73.75079,0,0,0,0,0,0,0,0,No completions,5,1,1,4,10,Fatal crash recorded,,,2.8,transport only,False,False,False
+11363,Queens,2023,40.76329,-73.75079,0,0,0,0,0,0,0,0,No completions,6,0,0,6,2,Serious injuries only,,,1.33,transport only,False,False,False
+11363,Queens,2024,40.76329,-73.75079,0,0,0,0,0,0,0,0,No completions,5,0,0,5,2,Serious injuries only,,,1.4,transport only,False,False,False
+11363,Queens,2025,40.76329,-73.75079,0,0,0,0,0,0,0,0,No completions,4,0,0,4,10,Serious injuries only,,,3.5,transport only,False,False,False
+11364,Queens,2022,40.74387,-73.76488,0,0,0,0,0,0,0,0,No completions,9,4,4,7,0,Fatal crash recorded,,,0.78,transport only,False,False,False
+11364,Queens,2023,40.74387,-73.76488,0,0,0,0,0,0,0,0,No completions,10,0,0,10,0,Serious injuries only,,,1.0,transport only,False,False,False
+11364,Queens,2024,40.74387,-73.76488,0,0,0,0,0,0,0,0,No completions,8,0,0,12,5,Serious injuries only,,,2.12,transport only,False,False,False
+11364,Queens,2025,40.74387,-73.76488,0,0,0,0,0,0,0,0,No completions,18,0,0,22,8,Serious injuries only,,,1.67,transport only,False,False,False
+11365,Queens,2022,40.73699,-73.80264,0,0,0,0,0,0,0,0,No completions,5,0,0,5,3,Serious injuries only,,,1.6,transport only,False,False,False
+11365,Queens,2023,40.73699,-73.80264,1,1,94,94,0,0,24,7,New Construction,7,1,1,6,3,Fatal crash recorded,7.45,0.0,1.29,both,False,False,False
+11365,Queens,2024,40.73699,-73.80264,1,1,7,7,0,0,0,0,New Construction,11,0,0,12,7,Serious injuries only,157.14,0.0,1.73,both,True,True,False
+11365,Queens,2025,40.73699,-73.80264,36,4,2211,0,2211,2129,81,0,Preservation,17,0,0,18,4,Serious injuries only,0.77,0.963,1.29,both,False,False,True
+11366,Queens,2022,40.72665,-73.79869,0,0,0,0,0,0,0,0,No completions,7,1,1,6,1,Fatal crash recorded,,,1.0,transport only,False,False,False
+11366,Queens,2023,40.72665,-73.79869,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+11366,Queens,2024,40.72665,-73.79869,0,0,0,0,0,0,0,0,No completions,8,1,1,7,2,Fatal crash recorded,,,1.12,transport only,False,False,False
+11366,Queens,2025,40.72665,-73.79869,0,0,0,0,0,0,0,0,No completions,9,0,0,11,3,Serious injuries only,,,1.56,transport only,False,False,False
+11367,Queens,2022,40.72462,-73.82031,0,0,0,0,0,0,0,0,No completions,15,1,1,14,6,Fatal crash recorded,,,1.33,transport only,False,False,False
+11367,Queens,2023,40.72462,-73.82031,0,0,0,0,0,0,0,79,No completions,6,0,0,6,1,Serious injuries only,,,1.17,transport only,False,False,False
+11367,Queens,2024,40.72462,-73.82031,0,0,0,0,0,0,0,0,No completions,15,0,0,19,2,Serious injuries only,,,1.4,transport only,False,False,False
+11367,Queens,2025,40.72462,-73.82031,0,0,0,0,0,0,0,0,No completions,21,0,0,24,12,Serious injuries only,,,1.71,transport only,False,False,False
+11368,Queens,2022,40.75028,-73.85979,5,5,47,47,0,0,0,301,New Construction,23,4,4,22,5,Fatal crash recorded,48.94,0.0,1.17,both,False,False,False
+11368,Queens,2023,40.75028,-73.85979,17,12,430,134,296,76,141,1294,Preservation,26,2,2,30,5,Fatal crash recorded,6.05,0.177,1.35,both,False,False,False
+11368,Queens,2024,40.75028,-73.85979,9,7,76,76,0,0,0,14,New Construction,23,0,0,25,5,Serious injuries only,30.26,0.0,1.3,both,False,False,False
+11368,Queens,2025,40.75028,-73.85979,11,4,266,61,205,190,9,17,Preservation,24,2,2,23,4,Fatal crash recorded,9.02,0.714,1.12,both,False,False,False
+11369,Queens,2022,40.76316,-73.8726,0,0,0,0,0,0,0,8,No completions,13,2,2,13,3,Fatal crash recorded,,,1.23,transport only,False,False,False
+11369,Queens,2023,40.76316,-73.8726,1,1,8,8,0,0,0,118,New Construction,17,2,2,16,6,Fatal crash recorded,212.5,0.0,1.29,both,True,True,False
+11369,Queens,2024,40.76316,-73.8726,0,0,0,0,0,0,0,0,No completions,19,1,1,20,1,Fatal crash recorded,,,1.11,transport only,False,False,False
+11369,Queens,2025,40.76316,-73.8726,1,1,106,106,0,105,0,0,New Construction,6,1,1,7,0,Fatal crash recorded,5.66,0.991,1.17,both,False,False,False
+11370,Queens,2022,40.76333,-73.89126,0,0,0,0,0,0,0,0,No completions,10,1,1,11,2,Fatal crash recorded,,,1.3,transport only,False,False,False
+11370,Queens,2023,40.76333,-73.89126,0,0,0,0,0,0,0,15,No completions,15,1,1,17,3,Fatal crash recorded,,,1.33,transport only,False,False,False
+11370,Queens,2024,40.76333,-73.89126,0,0,0,0,0,0,0,0,No completions,6,0,0,7,3,Serious injuries only,,,1.67,transport only,False,False,False
+11370,Queens,2025,40.76333,-73.89126,1,1,15,15,0,0,0,0,New Construction,9,0,0,10,1,Serious injuries only,60.0,0.0,1.22,both,False,True,False
+11372,Queens,2022,40.75115,-73.88356,1,1,154,154,0,0,0,172,New Construction,16,1,1,16,4,Fatal crash recorded,10.39,0.0,1.25,both,False,False,False
+11372,Queens,2023,40.75115,-73.88356,1,1,88,88,0,0,0,0,New Construction,21,1,1,21,6,Fatal crash recorded,23.86,0.0,1.29,both,False,False,False
+11372,Queens,2024,40.75115,-73.88356,0,0,0,0,0,0,0,0,No completions,29,4,4,28,8,Fatal crash recorded,,,1.24,transport only,False,False,False
+11372,Queens,2025,40.75115,-73.88356,1,1,40,40,0,0,0,24,New Construction,14,0,0,14,3,Serious injuries only,35.0,0.0,1.21,both,False,False,False
+11373,Queens,2022,40.74005,-73.87688,1,1,10,10,0,0,0,10,New Construction,12,1,1,11,3,Fatal crash recorded,120.0,0.0,1.17,both,True,True,False
+11373,Queens,2023,40.74005,-73.87688,0,0,0,0,0,0,0,7,No completions,16,0,0,16,2,Serious injuries only,,,1.12,transport only,False,False,False
+11373,Queens,2024,40.74005,-73.87688,2,2,17,17,0,0,0,0,New Construction,15,2,2,13,3,Fatal crash recorded,88.24,0.0,1.07,both,True,True,False
+11373,Queens,2025,40.74005,-73.87688,1,1,83,0,83,35,44,168,Preservation,13,2,2,11,3,Fatal crash recorded,15.66,0.422,1.08,both,False,False,False
+11374,Queens,2022,40.72901,-73.86144,0,0,0,0,0,0,0,90,No completions,10,2,2,9,6,Fatal crash recorded,,,1.5,transport only,False,False,False
+11374,Queens,2023,40.72901,-73.86144,1,1,18,18,0,0,0,390,New Construction,7,0,0,8,2,Serious injuries only,38.89,0.0,1.43,both,False,True,False
+11374,Queens,2024,40.72901,-73.86144,3,3,216,216,0,0,0,380,New Construction,11,0,0,11,3,Serious injuries only,5.09,0.0,1.27,both,False,False,False
+11374,Queens,2025,40.72901,-73.86144,5,1,534,0,534,148,242,559,Preservation,8,0,0,10,2,Serious injuries only,1.5,0.277,1.5,both,False,False,False
+11375,Queens,2022,40.72396,-73.84664,2,1,327,327,0,99,65,0,New Construction,9,0,0,10,1,Serious injuries only,2.75,0.303,1.22,both,False,False,False
+11375,Queens,2023,40.72396,-73.84664,1,1,115,115,0,34,23,166,New Construction,20,0,0,20,2,Serious injuries only,17.39,0.296,1.1,both,False,False,False
+11375,Queens,2024,40.72396,-73.84664,0,0,0,0,0,0,0,0,No completions,18,0,0,20,2,Serious injuries only,,,1.22,transport only,False,False,False
+11375,Queens,2025,40.72396,-73.84664,2,2,204,166,38,5,26,183,New Construction,18,0,0,21,3,Serious injuries only,8.82,0.025,1.33,both,False,False,False
+11377,Queens,2022,40.7459,-73.9034,2,2,24,24,0,0,0,127,New Construction,21,2,2,19,6,Fatal crash recorded,87.5,0.0,1.19,both,True,False,False
+11377,Queens,2023,40.7459,-73.9034,4,4,68,68,0,0,0,121,New Construction,20,1,1,21,6,Fatal crash recorded,29.41,0.0,1.35,both,False,False,False
+11377,Queens,2024,40.7459,-73.9034,7,7,602,602,0,9,153,57,New Construction,25,3,3,24,7,Fatal crash recorded,4.15,0.015,1.24,both,False,False,False
+11377,Queens,2025,40.7459,-73.9034,2,2,439,439,0,0,79,55,New Construction,29,0,0,30,11,Serious injuries only,6.61,0.0,1.41,both,False,False,False
+11378,Queens,2022,40.72448,-73.90568,0,0,0,0,0,0,0,0,No completions,15,4,4,13,0,Fatal crash recorded,,,0.87,transport only,False,False,False
+11378,Queens,2023,40.72448,-73.90568,0,0,0,0,0,0,0,0,No completions,18,2,2,18,7,Fatal crash recorded,,,1.39,transport only,False,False,False
+11378,Queens,2024,40.72448,-73.90568,0,0,0,0,0,0,0,0,No completions,12,0,0,12,2,Serious injuries only,,,1.17,transport only,False,False,False
+11378,Queens,2025,40.72448,-73.90568,0,0,0,0,0,0,0,0,No completions,26,0,0,35,7,Serious injuries only,,,1.62,transport only,False,False,False
+11379,Queens,2022,40.71735,-73.8845,0,0,0,0,0,0,0,0,No completions,5,0,0,5,0,Serious injuries only,,,1.0,transport only,False,False,False
+11379,Queens,2023,40.71735,-73.8845,0,0,0,0,0,0,0,0,No completions,8,1,1,8,4,Fatal crash recorded,,,1.5,transport only,False,False,False
+11379,Queens,2024,40.71735,-73.8845,0,0,0,0,0,0,0,0,No completions,10,1,1,10,0,Fatal crash recorded,,,1.0,transport only,False,False,False
+11379,Queens,2025,40.71735,-73.8845,0,0,0,0,0,0,0,0,No completions,11,1,1,12,1,Fatal crash recorded,,,1.18,transport only,False,False,False
+11385,Queens,2022,40.70325,-73.89605,5,5,241,241,0,40,26,161,New Construction,21,1,1,20,5,Fatal crash recorded,8.71,0.166,1.19,both,False,False,False
+11385,Queens,2023,40.70325,-73.89605,3,3,130,130,0,0,0,60,New Construction,21,0,0,21,11,Serious injuries only,16.15,0.0,1.52,both,False,False,False
+11385,Queens,2024,40.70325,-73.89605,0,0,0,0,0,0,0,9,No completions,25,0,0,27,4,Serious injuries only,,,1.24,transport only,False,False,False
+11385,Queens,2025,40.70325,-73.89605,0,0,0,0,0,0,0,0,No completions,22,1,1,22,6,Fatal crash recorded,,,1.27,transport only,False,False,False
+11411,Queens,2022,40.69514,-73.73738,0,0,0,0,0,0,0,2,No completions,5,0,0,5,2,Serious injuries only,,,1.4,transport only,False,False,False
+11411,Queens,2023,40.69514,-73.73738,0,0,0,0,0,0,0,0,No completions,8,0,0,9,1,Serious injuries only,,,1.25,transport only,False,False,False
+11411,Queens,2024,40.69514,-73.73738,1,1,1,0,1,0,1,0,Preservation,9,0,0,9,0,Serious injuries only,900.0,0.0,1.0,both,True,True,False
+11411,Queens,2025,40.69514,-73.73738,0,0,0,0,0,0,0,0,No completions,7,2,2,5,3,Fatal crash recorded,,,1.14,transport only,False,False,False
+11412,Queens,2022,40.69757,-73.75948,0,0,0,0,0,0,0,2,No completions,13,0,0,13,1,Serious injuries only,,,1.08,transport only,False,False,False
+11412,Queens,2023,40.69757,-73.75948,0,0,0,0,0,0,0,0,No completions,7,0,0,7,0,Serious injuries only,,,1.0,transport only,False,False,False
+11412,Queens,2024,40.69757,-73.75948,0,0,0,0,0,0,0,0,No completions,12,0,0,12,3,Serious injuries only,,,1.25,transport only,False,False,False
+11412,Queens,2025,40.69757,-73.75948,0,0,0,0,0,0,0,0,No completions,11,1,1,11,2,Fatal crash recorded,,,1.18,transport only,False,False,False
+11413,Queens,2022,40.6703,-73.75723,0,0,0,0,0,0,0,7,No completions,19,1,1,20,11,Fatal crash recorded,,,1.63,transport only,False,False,False
+11413,Queens,2023,40.6703,-73.75723,0,0,0,0,0,0,0,0,No completions,14,1,1,14,3,Fatal crash recorded,,,1.21,transport only,False,False,False
+11413,Queens,2024,40.6703,-73.75723,1,1,1,0,1,0,1,0,Preservation,13,0,0,16,7,Serious injuries only,1300.0,0.0,1.77,both,True,True,False
+11413,Queens,2025,40.6703,-73.75723,1,1,7,7,0,0,0,0,New Construction,9,0,0,12,7,Serious injuries only,128.57,0.0,2.11,both,True,True,False
+11414,Queens,2022,40.66121,-73.84212,0,0,0,0,0,0,0,0,No completions,3,1,1,3,3,Fatal crash recorded,,,2.0,transport only,False,False,False
+11414,Queens,2023,40.66121,-73.84212,0,0,0,0,0,0,0,0,No completions,13,1,1,12,0,Fatal crash recorded,,,0.92,transport only,False,False,False
+11414,Queens,2024,40.66121,-73.84212,0,0,0,0,0,0,0,0,No completions,9,0,0,11,2,Serious injuries only,,,1.44,transport only,False,False,False
+11414,Queens,2025,40.66121,-73.84212,0,0,0,0,0,0,0,0,No completions,14,0,0,18,5,Serious injuries only,,,1.64,transport only,False,False,False
+11415,Queens,2022,40.71185,-73.83231,0,0,0,0,0,0,0,0,No completions,8,1,1,8,7,Fatal crash recorded,,,1.88,transport only,False,False,False
+11415,Queens,2023,40.71185,-73.83231,0,0,0,0,0,0,0,51,No completions,4,0,0,4,5,Serious injuries only,,,2.25,transport only,False,False,False
+11415,Queens,2024,40.71185,-73.83231,1,1,51,51,0,0,0,0,New Construction,5,0,0,5,1,Serious injuries only,9.8,0.0,1.2,both,False,False,False
+11415,Queens,2025,40.71185,-73.83231,2,1,119,0,119,27,69,119,Preservation,6,0,0,6,2,Serious injuries only,5.04,0.227,1.33,both,False,False,False
+11416,Queens,2022,40.68431,-73.84817,1,1,20,20,0,0,0,0,New Construction,5,0,0,5,0,Serious injuries only,25.0,0.0,1.0,both,False,False,False
+11416,Queens,2023,40.68431,-73.84817,0,0,0,0,0,0,0,10,No completions,7,1,1,6,3,Fatal crash recorded,,,1.29,transport only,False,False,False
+11416,Queens,2024,40.68431,-73.84817,1,1,12,12,0,0,0,12,New Construction,2,0,0,2,1,Serious injuries only,16.67,0.0,1.5,both,False,True,False
+11416,Queens,2025,40.68431,-73.84817,1,1,10,10,0,0,0,0,New Construction,4,0,0,4,4,Serious injuries only,40.0,0.0,2.0,both,False,True,False
+11417,Queens,2022,40.67541,-73.84442,0,0,0,0,0,0,0,0,No completions,10,0,0,12,5,Serious injuries only,,,1.7,transport only,False,False,False
+11417,Queens,2023,40.67541,-73.84442,0,0,0,0,0,0,0,0,No completions,17,3,3,18,2,Fatal crash recorded,,,1.18,transport only,False,False,False
+11417,Queens,2024,40.67541,-73.84442,0,0,0,0,0,0,0,0,No completions,14,0,0,14,2,Serious injuries only,,,1.14,transport only,False,False,False
+11417,Queens,2025,40.67541,-73.84442,0,0,0,0,0,0,0,0,No completions,17,1,1,20,1,Fatal crash recorded,,,1.24,transport only,False,False,False
+11418,Queens,2022,40.6987,-73.83235,0,0,0,0,0,0,0,0,No completions,6,1,1,6,0,Fatal crash recorded,,,1.0,transport only,False,False,False
+11418,Queens,2023,40.6987,-73.83235,1,1,55,55,0,0,12,0,New Construction,3,0,0,3,0,Serious injuries only,5.45,0.0,1.0,both,False,False,False
+11418,Queens,2024,40.6987,-73.83235,1,1,40,40,0,0,13,40,New Construction,9,0,0,9,0,Serious injuries only,22.5,0.0,1.0,both,False,False,False
+11418,Queens,2025,40.6987,-73.83235,2,2,91,29,62,20,35,62,Preservation,10,3,3,7,0,Fatal crash recorded,10.99,0.22,0.7,both,False,False,False
+11419,Queens,2022,40.68755,-73.82412,0,0,0,0,0,0,0,0,No completions,13,2,2,15,8,Fatal crash recorded,,,1.77,transport only,False,False,False
+11419,Queens,2023,40.68755,-73.82412,1,1,1,0,1,0,1,85,Preservation,13,1,1,14,9,Fatal crash recorded,1300.0,0.0,1.77,both,True,True,False
+11419,Queens,2024,40.68755,-73.82412,3,1,27,27,0,0,0,10,New Construction,18,1,1,19,7,Fatal crash recorded,66.67,0.0,1.44,both,False,False,False
+11419,Queens,2025,40.68755,-73.82412,1,1,10,10,0,0,0,0,New Construction,13,1,1,14,1,Fatal crash recorded,130.0,0.0,1.15,both,True,True,False
+11420,Queens,2022,40.67352,-73.81604,0,0,0,0,0,0,0,3,No completions,8,0,0,8,0,Serious injuries only,,,1.0,transport only,False,False,False
+11420,Queens,2023,40.67352,-73.81604,2,1,2,0,2,0,1,0,Preservation,15,1,2,18,10,Fatal crash recorded,750.0,0.0,1.87,both,True,True,False
+11420,Queens,2024,40.67352,-73.81604,0,0,0,0,0,0,0,0,No completions,18,1,1,27,2,Fatal crash recorded,,,1.61,transport only,False,False,False
+11420,Queens,2025,40.67352,-73.81604,0,0,0,0,0,0,0,0,No completions,21,1,1,27,8,Fatal crash recorded,,,1.67,transport only,False,False,False
+11421,Queens,2022,40.69288,-73.85607,0,0,0,0,0,0,0,0,No completions,10,0,0,10,3,Serious injuries only,,,1.3,transport only,False,False,False
+11421,Queens,2023,40.69288,-73.85607,0,0,0,0,0,0,0,10,No completions,5,0,0,6,0,Serious injuries only,,,1.2,transport only,False,False,False
+11421,Queens,2024,40.69288,-73.85607,1,1,10,10,0,0,0,0,New Construction,7,0,0,7,4,Serious injuries only,70.0,0.0,1.57,both,True,True,False
+11421,Queens,2025,40.69288,-73.85607,0,0,0,0,0,0,0,59,No completions,5,1,2,5,1,Fatal crash recorded,,,1.2,transport only,False,False,False
+11422,Queens,2022,40.66651,-73.73514,0,0,0,0,0,0,0,0,No completions,10,0,0,10,9,Serious injuries only,,,1.9,transport only,False,False,False
+11422,Queens,2023,40.66651,-73.73514,0,0,0,0,0,0,0,0,No completions,9,0,0,10,7,Serious injuries only,,,1.89,transport only,False,False,False
+11422,Queens,2024,40.66651,-73.73514,0,0,0,0,0,0,0,0,No completions,8,0,0,9,0,Serious injuries only,,,1.12,transport only,False,False,False
+11422,Queens,2025,40.66651,-73.73514,0,0,0,0,0,0,0,0,No completions,12,0,0,14,5,Serious injuries only,,,1.58,transport only,False,False,False
+11423,Queens,2022,40.71776,-73.76771,0,0,0,0,0,0,0,104,No completions,16,1,1,15,6,Fatal crash recorded,,,1.31,transport only,False,False,False
+11423,Queens,2023,40.71776,-73.76771,0,0,0,0,0,0,0,0,No completions,9,0,0,10,2,Serious injuries only,,,1.33,transport only,False,False,False
+11423,Queens,2024,40.71776,-73.76771,0,0,0,0,0,0,0,0,No completions,12,0,0,13,4,Serious injuries only,,,1.42,transport only,False,False,False
+11423,Queens,2025,40.71776,-73.76771,1,1,101,101,0,0,0,23,New Construction,19,3,3,18,8,Fatal crash recorded,18.81,0.0,1.37,both,False,False,False
+11426,Queens,2022,40.73103,-73.72395,0,0,0,0,0,0,0,0,No completions,3,0,0,3,0,Serious injuries only,,,1.0,transport only,False,False,False
+11426,Queens,2023,40.73103,-73.72395,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+11426,Queens,2024,40.73103,-73.72395,0,0,0,0,0,0,0,0,No completions,6,1,1,5,4,Fatal crash recorded,,,1.5,transport only,False,False,False
+11426,Queens,2025,40.73103,-73.72395,0,0,0,0,0,0,0,0,No completions,3,0,0,4,2,Serious injuries only,,,2.0,transport only,False,False,False
+11427,Queens,2022,40.73019,-73.75069,0,0,0,0,0,0,0,0,No completions,4,1,1,3,2,Fatal crash recorded,,,1.25,transport only,False,False,False
+11427,Queens,2023,40.73019,-73.75069,0,0,0,0,0,0,0,0,No completions,3,0,0,3,1,Serious injuries only,,,1.33,transport only,False,False,False
+11427,Queens,2024,40.73019,-73.75069,0,0,0,0,0,0,0,0,No completions,3,0,0,3,0,Serious injuries only,,,1.0,transport only,False,False,False
+11427,Queens,2025,40.73019,-73.75069,0,0,0,0,0,0,0,0,No completions,5,1,1,4,3,Fatal crash recorded,,,1.4,transport only,False,False,False
+11428,Queens,2022,40.72003,-73.74181,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+11428,Queens,2023,40.72003,-73.74181,0,0,0,0,0,0,0,0,No completions,5,1,1,4,1,Fatal crash recorded,,,1.0,transport only,False,False,False
+11428,Queens,2024,40.72003,-73.74181,0,0,0,0,0,0,0,0,No completions,3,1,1,2,0,Fatal crash recorded,,,0.67,transport only,False,False,False
+11428,Queens,2025,40.72003,-73.74181,0,0,0,0,0,0,0,0,No completions,4,0,0,4,1,Serious injuries only,,,1.25,transport only,False,False,False
+11429,Queens,2022,40.70934,-73.73658,0,0,0,0,0,0,0,4,No completions,10,1,1,11,6,Fatal crash recorded,,,1.7,transport only,False,False,False
+11429,Queens,2023,40.70934,-73.73658,1,1,1,0,1,0,1,0,Preservation,7,1,1,6,1,Fatal crash recorded,700.0,0.0,1.0,both,True,True,False
+11429,Queens,2024,40.70934,-73.73658,0,0,0,0,0,0,0,0,No completions,8,0,0,11,1,Serious injuries only,,,1.5,transport only,False,False,False
+11429,Queens,2025,40.70934,-73.73658,0,0,0,0,0,0,0,0,No completions,5,0,0,5,3,Serious injuries only,,,1.6,transport only,False,False,False
+11430,Queens,2022,40.66611,-73.81169,0,0,0,0,0,0,0,0,No completions,5,1,1,4,1,Fatal crash recorded,,,1.0,transport only,False,False,False
+11430,Queens,2023,40.66611,-73.81169,0,0,0,0,0,0,0,0,No completions,4,0,0,4,0,Serious injuries only,,,1.0,transport only,False,False,False
+11430,Queens,2024,40.66611,-73.81169,0,0,0,0,0,0,0,0,No completions,8,0,0,11,5,Serious injuries only,,,2.0,transport only,False,False,False
+11430,Queens,2025,40.66611,-73.81169,0,0,0,0,0,0,0,0,No completions,3,0,0,4,0,Serious injuries only,,,1.33,transport only,False,False,False
+11432,Queens,2022,40.71134,-73.79504,2,2,40,40,0,0,0,624,New Construction,12,0,0,15,5,Serious injuries only,30.0,0.0,1.67,both,False,False,False
+11432,Queens,2023,40.71134,-73.79504,4,4,231,231,0,69,138,127,New Construction,23,1,1,25,8,Fatal crash recorded,9.96,0.299,1.43,both,False,False,False
+11432,Queens,2024,40.71134,-73.79504,4,4,475,475,0,17,157,36,New Construction,22,1,1,26,6,Fatal crash recorded,4.63,0.036,1.45,both,False,False,False
+11432,Queens,2025,40.71134,-73.79504,0,0,0,0,0,0,0,237,No completions,40,1,1,44,7,Fatal crash recorded,,,1.27,transport only,False,False,False
+11433,Queens,2022,40.69794,-73.79205,0,0,0,0,0,0,0,0,No completions,19,0,0,19,2,Serious injuries only,,,1.11,transport only,False,False,False
+11433,Queens,2023,40.69794,-73.79205,2,2,316,315,1,0,1,0,New Construction,13,1,1,12,4,Fatal crash recorded,4.11,0.0,1.23,both,False,False,False
+11433,Queens,2024,40.69794,-73.79205,1,1,221,0,221,143,71,241,Preservation,13,1,1,13,8,Fatal crash recorded,5.88,0.647,1.62,both,False,False,False
+11433,Queens,2025,40.69794,-73.79205,0,0,0,0,0,0,0,400,No completions,17,1,1,17,5,Fatal crash recorded,,,1.29,transport only,False,False,False
+11434,Queens,2022,40.67515,-73.77951,0,0,0,0,0,0,0,0,No completions,14,1,1,13,10,Fatal crash recorded,,,1.64,transport only,False,False,False
+11434,Queens,2023,40.67515,-73.77951,3,1,3,0,3,0,3,0,Preservation,22,4,4,21,14,Fatal crash recorded,733.33,0.0,1.59,both,True,True,False
+11434,Queens,2024,40.67515,-73.77951,1,1,8,8,0,0,0,24,New Construction,15,2,2,13,3,Fatal crash recorded,187.5,0.0,1.07,both,True,True,False
+11434,Queens,2025,40.67515,-73.77951,1,1,16,16,0,0,0,0,New Construction,13,2,2,11,3,Fatal crash recorded,81.25,0.0,1.08,both,True,True,False
+11435,Queens,2022,40.70064,-73.80869,3,2,925,543,382,257,177,462,New Construction,15,0,0,16,0,Serious injuries only,1.62,0.278,1.07,both,False,False,False
+11435,Queens,2023,40.70064,-73.80869,3,3,111,109,2,0,1,428,New Construction,10,0,0,10,3,Serious injuries only,9.01,0.0,1.3,both,False,False,False
+11435,Queens,2024,40.70064,-73.80869,5,5,90,86,4,0,0,1291,New Construction,21,0,0,27,6,Serious injuries only,23.33,0.0,1.57,both,False,False,False
+11435,Queens,2025,40.70064,-73.80869,2,2,254,254,0,172,0,159,New Construction,27,1,1,28,7,Fatal crash recorded,10.63,0.677,1.3,both,False,False,False
+11436,Queens,2022,40.67574,-73.79712,0,0,0,0,0,0,0,2,No completions,15,1,1,18,10,Fatal crash recorded,,,1.87,transport only,False,False,False
+11436,Queens,2023,40.67574,-73.79712,1,1,1,0,1,0,1,318,Preservation,6,0,0,7,8,Serious injuries only,600.0,0.0,2.5,both,True,True,False
+11436,Queens,2024,40.67574,-73.79712,0,0,0,0,0,0,0,0,No completions,4,0,0,4,0,Serious injuries only,,,1.0,transport only,False,False,False
+11436,Queens,2025,40.67574,-73.79712,1,1,318,318,0,317,0,0,New Construction,9,0,0,9,4,Serious injuries only,2.83,0.997,1.44,both,False,False,False
+11691,Queens,2022,40.60054,-73.75906,3,2,358,316,42,190,160,293,New Construction,14,4,4,12,6,Fatal crash recorded,3.91,0.531,1.29,both,False,False,False
+11691,Queens,2023,40.60054,-73.75906,2,2,471,471,0,248,221,719,New Construction,6,1,1,6,4,Fatal crash recorded,1.27,0.527,1.67,both,False,False,False
+11691,Queens,2024,40.60054,-73.75906,6,6,1036,883,153,511,517,360,New Construction,15,0,0,17,11,Serious injuries only,1.45,0.493,1.87,both,False,False,False
+11691,Queens,2025,40.60054,-73.75906,9,7,2023,959,1064,509,1449,847,Preservation,10,0,0,15,6,Serious injuries only,0.49,0.252,2.1,both,False,False,True
+11692,Queens,2022,40.59186,-73.79231,0,0,0,0,0,0,0,0,No completions,3,0,0,4,0,Serious injuries only,,,1.33,transport only,False,False,False
+11692,Queens,2023,40.59186,-73.79231,0,0,0,0,0,0,0,0,No completions,6,0,0,6,2,Serious injuries only,,,1.33,transport only,False,False,False
+11692,Queens,2024,40.59186,-73.79231,0,0,0,0,0,0,0,1093,No completions,4,0,0,4,0,Serious injuries only,,,1.0,transport only,False,False,False
+11692,Queens,2025,40.59186,-73.79231,0,0,0,0,0,0,0,122,No completions,4,0,0,4,0,Serious injuries only,,,1.0,transport only,False,False,False
+11693,Queens,2022,40.6002,-73.81747,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+11693,Queens,2023,40.6002,-73.81747,0,0,0,0,0,0,0,0,No completions,3,1,1,2,1,Fatal crash recorded,,,1.0,transport only,False,False,False
+11693,Queens,2024,40.6002,-73.81747,0,0,0,0,0,0,0,0,No completions,3,0,0,3,0,Serious injuries only,,,1.0,transport only,False,False,False
+11693,Queens,2025,40.6002,-73.81747,0,0,0,0,0,0,0,0,No completions,3,0,0,3,0,Serious injuries only,,,1.0,transport only,False,False,False
+11694,Queens,2022,40.5819,-73.8373,1,1,374,0,374,0,94,0,Preservation,0,0,0,0,0,No serious crashes,0.0,0.0,,housing only,False,False,False
+11694,Queens,2023,40.5819,-73.8373,0,0,0,0,0,0,0,0,No completions,5,1,1,6,1,Fatal crash recorded,,,1.4,transport only,False,False,False
+11694,Queens,2024,40.5819,-73.8373,0,0,0,0,0,0,0,0,No completions,2,0,0,3,1,Serious injuries only,,,2.0,transport only,False,False,False
+11694,Queens,2025,40.5819,-73.8373,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10301,Staten Island,2022,40.63255,-74.09065,4,1,316,0,316,3,209,0,Preservation,8,0,0,8,1,Serious injuries only,2.53,0.009,1.12,both,False,False,False
+10301,Staten Island,2023,40.63255,-74.09065,0,0,0,0,0,0,0,74,No completions,16,1,1,17,4,Fatal crash recorded,,,1.31,transport only,False,False,False
+10301,Staten Island,2024,40.63255,-74.09065,0,0,0,0,0,0,0,0,No completions,13,1,1,12,4,Fatal crash recorded,,,1.23,transport only,False,False,False
+10301,Staten Island,2025,40.63255,-74.09065,1,1,115,115,0,5,24,75,New Construction,9,0,0,9,1,Serious injuries only,7.83,0.043,1.11,both,False,False,False
+10302,Staten Island,2022,40.63023,-74.13715,1,1,48,48,0,31,16,0,New Construction,6,0,0,6,0,Serious injuries only,12.5,0.646,1.0,both,False,False,False
+10302,Staten Island,2023,40.63023,-74.13715,0,0,0,0,0,0,0,0,No completions,7,0,0,10,1,Serious injuries only,,,1.57,transport only,False,False,False
+10302,Staten Island,2024,40.63023,-74.13715,0,0,0,0,0,0,0,0,No completions,5,0,0,6,4,Serious injuries only,,,2.0,transport only,False,False,False
+10302,Staten Island,2025,40.63023,-74.13715,0,0,0,0,0,0,0,0,No completions,15,0,0,15,9,Serious injuries only,,,1.6,transport only,False,False,False
+10303,Staten Island,2022,40.63883,-74.17124,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10303,Staten Island,2023,40.63883,-74.17124,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10303,Staten Island,2024,40.63883,-74.17124,0,0,0,0,0,0,0,0,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10303,Staten Island,2025,40.63883,-74.17124,0,0,0,0,0,0,0,536,No completions,0,0,0,0,0,No serious crashes,,,,neither (grid fill),False,False,False
+10304,Staten Island,2022,40.61727,-74.08306,0,0,0,0,0,0,0,10,No completions,6,1,1,5,0,Fatal crash recorded,,,0.83,transport only,False,False,False
+10304,Staten Island,2023,40.61727,-74.08306,1,1,67,67,0,66,0,0,New Construction,20,0,0,29,9,Serious injuries only,29.85,0.985,1.9,both,False,False,False
+10304,Staten Island,2024,40.61727,-74.08306,1,1,10,10,0,0,0,9,New Construction,7,1,1,6,0,Fatal crash recorded,70.0,0.0,0.86,both,True,True,False
+10304,Staten Island,2025,40.61727,-74.08306,0,0,0,0,0,0,0,1130,No completions,11,2,2,10,2,Fatal crash recorded,,,1.09,transport only,False,False,False
+10305,Staten Island,2022,40.60119,-74.07438,0,0,0,0,0,0,0,0,No completions,13,0,0,14,0,Serious injuries only,,,1.08,transport only,False,False,False
+10305,Staten Island,2023,40.60119,-74.07438,0,0,0,0,0,0,0,0,No completions,11,0,0,11,2,Serious injuries only,,,1.18,transport only,False,False,False
+10305,Staten Island,2024,40.60119,-74.07438,1,1,103,103,0,0,28,2,New Construction,11,1,1,10,2,Fatal crash recorded,10.68,0.0,1.09,both,False,False,False
+10305,Staten Island,2025,40.60119,-74.07438,0,0,0,0,0,0,0,0,No completions,15,2,2,15,8,Fatal crash recorded,,,1.53,transport only,False,False,False
+10306,Staten Island,2022,40.56894,-74.11089,0,0,0,0,0,0,0,0,No completions,12,0,0,12,6,Serious injuries only,,,1.5,transport only,False,False,False
+10306,Staten Island,2023,40.56894,-74.11089,0,0,0,0,0,0,0,0,No completions,13,1,1,12,6,Fatal crash recorded,,,1.38,transport only,False,False,False
+10306,Staten Island,2024,40.56894,-74.11089,0,0,0,0,0,0,0,21,No completions,8,3,3,5,3,Fatal crash recorded,,,1.0,transport only,False,False,False
+10306,Staten Island,2025,40.56894,-74.11089,0,0,0,0,0,0,0,1006,No completions,7,0,0,7,0,Serious injuries only,,,1.0,transport only,False,False,False
+10307,Staten Island,2022,40.51206,-74.24006,0,0,0,0,0,0,0,0,No completions,7,1,3,6,6,Fatal crash recorded,,,1.71,transport only,False,False,False
+10307,Staten Island,2023,40.51206,-74.24006,0,0,0,0,0,0,0,11,No completions,5,0,0,5,1,Serious injuries only,,,1.2,transport only,False,False,False
+10307,Staten Island,2024,40.51206,-74.24006,0,0,0,0,0,0,0,0,No completions,3,1,1,2,0,Fatal crash recorded,,,0.67,transport only,False,False,False
+10307,Staten Island,2025,40.51206,-74.24006,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10308,Staten Island,2022,40.55069,-74.14527,0,0,0,0,0,0,0,0,No completions,2,0,0,2,0,Serious injuries only,,,1.0,transport only,False,False,False
+10308,Staten Island,2023,40.55069,-74.14527,0,0,0,0,0,0,0,0,No completions,4,1,1,3,0,Fatal crash recorded,,,0.75,transport only,False,False,False
+10308,Staten Island,2024,40.55069,-74.14527,0,0,0,0,0,0,0,0,No completions,3,0,0,3,0,Serious injuries only,,,1.0,transport only,False,False,False
+10308,Staten Island,2025,40.55069,-74.14527,0,0,0,0,0,0,0,0,No completions,2,0,0,2,1,Serious injuries only,,,1.5,transport only,False,False,False
+10309,Staten Island,2022,40.5267,-74.21836,0,0,0,0,0,0,0,0,No completions,3,1,1,2,1,Fatal crash recorded,,,1.0,transport only,False,False,False
+10309,Staten Island,2023,40.5267,-74.21836,0,0,0,0,0,0,0,0,No completions,7,0,0,7,7,Serious injuries only,,,2.0,transport only,False,False,False
+10309,Staten Island,2024,40.5267,-74.21836,0,0,0,0,0,0,0,0,No completions,6,0,0,6,0,Serious injuries only,,,1.0,transport only,False,False,False
+10309,Staten Island,2025,40.5267,-74.21836,0,0,0,0,0,0,0,0,No completions,9,0,0,9,2,Serious injuries only,,,1.22,transport only,False,False,False
+10310,Staten Island,2022,40.63438,-74.11838,0,0,0,0,0,0,0,0,No completions,1,0,0,1,0,Serious injuries only,,,1.0,transport only,False,False,False
+10310,Staten Island,2023,40.63438,-74.11838,0,0,0,0,0,0,0,0,No completions,5,0,0,5,0,Serious injuries only,,,1.0,transport only,False,False,False
+10310,Staten Island,2024,40.63438,-74.11838,0,0,0,0,0,0,0,75,No completions,6,0,0,6,3,Serious injuries only,,,1.5,transport only,False,False,False
+10310,Staten Island,2025,40.63438,-74.11838,0,0,0,0,0,0,0,0,No completions,10,1,1,9,9,Fatal crash recorded,,,1.8,transport only,False,False,False
+10312,Staten Island,2022,40.54746,-74.17563,0,0,0,0,0,0,0,0,No completions,13,1,1,14,2,Fatal crash recorded,,,1.23,transport only,False,False,False
+10312,Staten Island,2023,40.54746,-74.17563,0,0,0,0,0,0,0,0,No completions,16,0,0,22,4,Serious injuries only,,,1.62,transport only,False,False,False
+10312,Staten Island,2024,40.54746,-74.17563,0,0,0,0,0,0,0,0,No completions,16,2,2,14,11,Fatal crash recorded,,,1.56,transport only,False,False,False
+10312,Staten Island,2025,40.54746,-74.17563,0,0,0,0,0,0,0,0,No completions,4,1,1,4,0,Fatal crash recorded,,,1.0,transport only,False,False,False
+10314,Staten Island,2022,40.61002,-74.13,0,0,0,0,0,0,0,0,No completions,7,1,1,7,4,Fatal crash recorded,,,1.57,transport only,False,False,False
+10314,Staten Island,2023,40.61002,-74.13,0,0,0,0,0,0,0,0,No completions,9,0,0,9,1,Serious injuries only,,,1.11,transport only,False,False,False
+10314,Staten Island,2024,40.61002,-74.13,0,0,0,0,0,0,0,80,No completions,10,0,0,10,4,Serious injuries only,,,1.4,transport only,False,False,False
+10314,Staten Island,2025,40.61002,-74.13,0,0,0,0,0,0,0,0,No completions,7,0,0,8,1,Serious injuries only,,,1.29,transport only,False,False,False

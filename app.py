@@ -55,12 +55,13 @@ COLORWAY = ["#6366f1", "#ec4899", "#14b8a6", "#f59e0b", "#8b5cf6"]
 def style_figure(figure: go.Figure) -> go.Figure:
     """Apply the dashboard theme to any chart. The card header already shows the
     chart title, so the in-figure title is removed to stop it overlapping the plot."""
+    # Keep chart-specific margins and heights: heatmaps and treemaps need
+    # more room than the standard dashboard charts.
     figure.update_layout(
         title=None,
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(family="Inter, sans-serif", color="#0f172a"),
-        margin=dict(l=10, r=10, t=20, b=10),
         colorway=COLORWAY,
     )
     return figure
@@ -105,7 +106,8 @@ def make_chart_cards():
     cards = []
     for chart_spec in CHART_SPECS:
         initial_figure = style_figure(build_chart_figure(chart_spec, DATA, {}))
-        
+        graph_height = initial_figure.layout.height or 350
+
         cards.append(
             html.Div(
                 [
@@ -118,7 +120,7 @@ def make_chart_cards():
                         id=f"{chart_spec['id']}-graph",
                         figure=initial_figure,
                         config={"displayModeBar": False, "responsive": True},
-                        style={"height": "350px"} # Fixed height for grid alignment
+                        style={"height": f"{graph_height}px"}
                     ),
                 ], className="chart-card",
             )
@@ -258,6 +260,7 @@ def apply_filters(dataframe, filters):
 
 # --- THE FIX: Smart Modal Layout Callback ---
 chart_outputs = [Output(f"chart_{number:02d}-graph", "figure") for number in range(1, 13)]
+chart_style_outputs = [Output(f"chart_{number:02d}-graph", "style") for number in range(1, 13)]
 chart_states = [State(f"chart_{number:02d}-graph", "figure") for number in range(1, 13)]
 
 @app.callback(
@@ -302,7 +305,7 @@ def toggle_modal(expand_clicks, close_click, *figures):
     return "modal-overlay", no_update, no_update, no_update
 
 @app.callback(
-    chart_outputs + [Output("empty-results-message", "children"), Output("empty-results-message", "className"), Output("report-summary", "children")],
+    chart_outputs + chart_style_outputs + [Output("empty-results-message", "children"), Output("empty-results-message", "className"), Output("report-summary", "children")],
     Input("generate-report-button", "n_clicks"),
     State("borough-filter", "value"), State("year-filter", "value"), State("housing-category-filter", "value"), State("transportation-category-filter", "value"),
     prevent_initial_call=True,
@@ -312,14 +315,18 @@ def generate_report(_n_clicks, borough, years, housing_category, transportation_
     filtered_df = apply_filters(DATA, current_filters)
 
     figures = []
+    graph_styles = []
     for chart_spec in CHART_SPECS:
-        figures.append(style_figure(build_chart_figure(chart_spec, filtered_df, current_filters)))
+        figure = style_figure(build_chart_figure(chart_spec, filtered_df, current_filters))
+        figures.append(figure)
+        graph_height = figure.layout.height or 350
+        graph_styles.append({"height": f"{graph_height}px"})
 
     if filtered_df.empty:
-        return tuple(figures) + ("No results match the selected filters.", "empty-results visible", "No matching records.")
-    
+        return tuple(figures + graph_styles) + ("No results match the selected filters.", "empty-results visible", "No matching records.")
+
     summary = f"Showing {len(filtered_df):,} ZIP/year records across {filtered_df[config.ZIP_COLUMN].nunique():,} NYC ZIP codes."
-    return tuple(figures) + ("", "empty-results", summary)
+    return tuple(figures + graph_styles) + ("", "empty-results", summary)
 
 if __name__ == "__main__":
     import os

@@ -1,58 +1,100 @@
-"""Story section shown at the bottom of the dashboard (Member 5).
+"""Rule-based search parser (Member 5).
 
-Numbers come from data/clean/integrated_zip_year.csv (ZIP x year, 2022-2025).
-Update the FINDINGS paragraph once teammates send their findings.
+Turns a typed query such as "Brooklyn 2022 new buildings" into dropdown values.
+
 """
-from dash import html
+import re
 
-STORY_CONTENT = [
-    html.H2("The Story: Do Serious Crashes Follow New Affordable Housing?"),
-    html.Div(
-        [
-            html.H3("1. The question"),
-            html.P(
-                "New York keeps adding affordable homes, but a home is only as good as the streets "
-                "around it. We asked whether ZIP codes that complete the most affordable housing also "
-                "see more serious-injury and fatal crashes, and whether that changed from 2022 to 2025. "
-                "It matters because planners decide where to build and where to fix streets."
-            ),
-            html.H3("2. The data and how we connected it"),
-            html.P(
-                "Housing: HPD Affordable Housing Production by Building (hg8x-zxpr). Transportation: "
-                "SIRTA crash data (xeqp-qz8h), which only starts in 2022. The two files share no key, so "
-                "we aggregated both to ZIP code x year and joined them on a full ZIP-year grid for "
-                "2022-2025 (187 ZIPs x 4 years = 748 rows). Crashes missing a ZIP were filled from the "
-                "nearest ZIP centre when within 1.5 km; 1,388 crashes (11.6%) still had no ZIP and were "
-                "excluded. ZIP-years with no housing or crashes were set to 0, and crash rates are left "
-                "empty where no units were completed."
-            ),
-            html.H3("3. What we found"),
-            html.P(
-                "Between 2022 and 2025 the ZIPs in our data completed about 142,000 affordable units and "
-                "recorded about 10,600 serious or fatal crashes. The Bronx completed the most units "
-                "(about 53,000), yet Brooklyn had the most serious crashes (about 3,300). Serious crashes "
-                "rose each year, from roughly 2,480 in 2022 to 2,750 in 2025. ZIPs with more completed "
-                "units also tend to have more crashes (Spearman correlation about 0.57), but the link is "
-                "weak among ZIP-years that actually completed housing (about 0.30). [Add your teammates' "
-                "strongest chart findings here.]"
-            ),
-            html.H3("4. The limits"),
-            html.P(
-                "Correlation is not causation: bigger ZIPs have more people, streets and housing, so both "
-                "counts rise together. SIRTA covers only serious-injury and fatal crashes from 2022, so "
-                "this is not all crashes and not a long-term trend. ZIP-level totals hide block-level "
-                "differences, and crashes are counted by where they happened, not where residents live. "
-                "Housing is counted at completion, so a building's effect on traffic may come later. "
-                "Rates per 100 units are unstable when few units were completed."
-            ),
-            html.H3("5. Why it matters for NYC"),
-            html.P(
-                "City planners can check street safety before approving large developments and bundle "
-                "crosswalks, signals and protected lanes with new buildings. Transportation and safety "
-                "agencies can watch ZIPs where housing is growing fast and crashes are high. Housing "
-                "advocates can use the ZIP list to press for safer streets near affordable homes."
-            ),
-        ],
-        className="story-content",
-    ),
-]
+import config
+
+# Words that map to a borough (lowercase). Longest phrases are checked first.
+BOROUGH_WORDS = {
+    "staten island": "Staten Island",
+    "bronx": "Bronx",
+    "brooklyn": "Brooklyn",
+    "manhattan": "Manhattan",
+    "queens": "Queens",
+}
+
+# Words that map to the housing category dropdown.
+HOUSING_WORDS = {
+    "new construction": "New Construction",
+    "new buildings": "New Construction",
+    "new building": "New Construction",
+    "new housing": "New Construction",
+    "construction": "New Construction",
+    "preservation": "Preservation",
+    "preserved": "Preservation",
+    "renovation": "Preservation",
+    "no completions": "No completions",
+    "no housing": "No completions",
+}
+
+# Words that map to the transportation category dropdown.
+TRANSPORT_WORDS = {
+    "fatal": "Fatal crash recorded",
+    "deadly": "Fatal crash recorded",
+    "death": "Fatal crash recorded",
+    "serious injur": "Serious injuries only",
+    "injur": "Serious injuries only",
+    "no crashes": "No serious crashes",
+    "safe": "No serious crashes",
+}
+
+
+def _first_match(text, words):
+    """Return the value for the longest keyword found in text, else None."""
+    for keyword in sorted(words, key=len, reverse=True):
+        # \b at the start so "safe" does not match "unsafe" or "construction" "reconstruction";
+        # no \b at the end so "injur" still matches "injuries" and "injured".
+        if re.search(r"\b" + re.escape(keyword), text):
+            return words[keyword]
+    return None
+
+
+def parse_query(query):
+    """Return (filters, recognized_labels).
+
+    filters has the four dropdown keys; unrecognized ones stay at "All".
+    An empty query returns the all-default filters (a reset).
+    """
+    filters = {
+        "borough": config.ALL_VALUE,
+        "year": [config.ALL_VALUE],
+        "housing_category": config.ALL_VALUE,
+        "transportation_category": config.ALL_VALUE,
+    }
+    found = []
+    text = (query or "").lower().strip()
+    if not text:
+        return filters, found
+
+    borough = _first_match(text, BOROUGH_WORDS)
+    if borough:
+        filters["borough"] = borough
+        found.append(borough)
+
+    # Keep only years that exist in the integrated data (2022-2025).
+    years = [int(y) for y in re.findall(r"\b(20\d{2})\b", text) if int(y) in config.YEARS]
+    if years:
+        filters["year"] = sorted(set(years))
+        found.extend(str(y) for y in filters["year"])
+
+    housing = _first_match(text, HOUSING_WORDS)
+    if housing:
+        filters["housing_category"] = housing
+        found.append(housing)
+
+    transport = _first_match(text, TRANSPORT_WORDS)
+    if transport:
+        filters["transportation_category"] = transport
+        found.append(transport)
+
+    return filters, found
+
+
+if __name__ == "__main__":
+    tests = ["Brooklyn 2022 new buildings", "queens fatal 2024", "2023", "bronx preservation",
+             "pizza", "", "Staten Island 2019", "Manhattan serious injuries 2022 2025"]
+    for t in tests:
+        print(repr(t), "->", parse_query(t))

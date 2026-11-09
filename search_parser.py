@@ -1,7 +1,7 @@
 """Rule-based search parser (Member 5).
 
 Turns a typed query such as "Brooklyn 2022 new buildings" into dropdown values.
-No AI involved: only keyword and regex matching, so it is fast and predictable.
+
 """
 import re
 
@@ -45,7 +45,9 @@ TRANSPORT_WORDS = {
 def _first_match(text, words):
     """Return the value for the longest keyword found in text, else None."""
     for keyword in sorted(words, key=len, reverse=True):
-        if keyword in text:
+        # \b at the start so "safe" does not match "unsafe" or "construction" "reconstruction";
+        # no \b at the end so "injur" still matches "injuries" and "injured".
+        if re.search(r"\b" + re.escape(keyword), text):
             return words[keyword]
     return None
 

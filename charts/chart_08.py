@@ -36,7 +36,9 @@ def build_figure(df: pd.DataFrame, filters: dict) -> go.Figure:
         return _empty_figure()
     # Pooled share (total fatal / total crashes): stable even when single ZIP-years are small
     grouped["fatal_pct"] = grouped["fatal"] / grouped["crashes"] * 100
-        # Approximate 95% confidence interval for a proportion (treats crashes as independent)
+
+    # Approximate 95% confidence interval for a proportion.
+    # This treats individual crashes as independent observations.
     p = grouped["fatal"] / grouped["crashes"]
     grouped["ci"] = 1.96 * (p * (1 - p) / grouped["crashes"]) ** 0.5 * 100
     grouped["label"] = grouped.apply(
@@ -48,6 +50,7 @@ def build_figure(df: pd.DataFrame, filters: dict) -> go.Figure:
                  color_discrete_map={"New Construction": "#6366f1", "Preservation": "#14b8a6",
                                      "No completions": "#94a3b8"},
                  text=grouped["fatal_pct"].map(lambda v: f"{v:.1f}%"),
+                 error_y="ci",
                  hover_data={"crashes": ":,", "fatal": ":,", "fatal_pct": ":.1f", "ci": ":.1f", "label": False},
                  labels={"fatal_pct": "Fatal crashes (% of serious crashes)", "label": "",
                          "crashes": "Serious crashes", "fatal": "Fatal crashes"})

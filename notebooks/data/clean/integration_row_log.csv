@@ -1,0 +1,7 @@
+step,dataset,rows
+housing_clean.csv loaded,housing,7593
+transport_clean.csv loaded,transport,13301
+transport: 2022-2025 only,transport,11951
+housing: completed 2022-2025,housing,2241
+transport: has ZIP,transport,10563
+integrated ZIP x year grid,integrated,748
