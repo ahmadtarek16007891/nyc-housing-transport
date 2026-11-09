@@ -14,7 +14,7 @@
 | Member | ID | Contribution |
 |---|---|---|
 | Member 1 | 16007891 | Housing EDA and cleaning, housing_clean.csv, research questions 1-2, charts 1-2 |
-| Member 2 | | |
+| Member 2 | 16002649 | Transport data sampling (SIRTA crashes 2022 onward), EDA, pre-integration cleaning, transport_clean.csv and notes, research questions 3-4, charts 3-4 (line chart, heatmap) |
 | Member 3 | 16002463| Integration: ZIP×year aggregation, full outer join on a ZIP×year grid (2022–2025), post-integration cleaning (join nulls, merged borough/coordinate columns, dtypes, IQR rate-outlier flags), data dictionary, config schema; research questions 5–6, charts 5–6 (box plot, map) |
 | Member 4 | | |
 | Member 5 | | |
