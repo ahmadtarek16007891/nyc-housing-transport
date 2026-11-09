@@ -54,3 +54,6 @@ desktop.ini
 # Logs
 # ==============================
 *.log
+# Raw data (large downloads) and notebook working copies
+data/raw/
+notebooks/data/
