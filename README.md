@@ -94,18 +94,18 @@ Any other host that runs a Python web service (for example Render or Heroku) can
 
 | Chart | Owner | Chart type | Research question |
 |---|---|---|---|
-| 01 | Member 1 | Scatter, one point per ZIP | RQ1: Do ZIPs that completed more affordable units also have more serious crashes? |
-| 02 | Member 1 | Yearly trend | RQ2: Do crashes rise or fall in years when more affordable units are completed? |
-| 03 | Member 2 | Line by borough | RQ3: How did serious crashes change year to year in each borough, and which boroughs rose most? |
-| 04 | Member 2 | Heatmap, borough x year | RQ4: In which borough and year do serious crashes injure the most people per crash? |
-| 05 | Member 3 | Box plot by housing tier | RQ5: Do ZIPs that received the most new affordable housing face more serious and fatal crashes than ZIPs that received none? |
-| 06 | Member 3 | Map | RQ6: Is new affordable housing being completed in ZIPs where serious crashes are rising or falling? |
-| 07 | Member 4 | Heatmap, borough x year | RQ7: In which boroughs and years were serious crashes highest relative to affordable housing completed? |
-| 08 | Member 4 | Bar chart | RQ8: Are serious crashes more likely to be fatal in ZIP-years dominated by new construction than by preservation or no completions? |
-| 09 | Member 5 | Horizontal bar, top 10 ZIPs | RQ9: Which ZIPs had the most serious crashes relative to the affordable housing they completed? |
-| 10 | Member 5 | Scatter with trend line | RQ10: In ZIPs where a larger share of new units is deeply affordable, are serious crashes more injurious? |
-| 11 | Member 6 | Spearman correlation heatmap | RQ11: Which housing-production indicators are most strongly associated with serious-crash outcomes? |
-| 12 | Member 6 | Treemap, borough x housing category | RQ12: How do serious-crash burden and fatal-crash share vary by borough and dominant housing activity? |
+| 01 | Member 1 (Ahmad Tarek) | Scatter, one point per ZIP | RQ1: Do ZIPs that completed more affordable units also have more serious crashes? |
+| 02 | Member 1 (Ahmad Tarek) | Yearly trend | RQ2: Do crashes rise or fall in years when more affordable units are completed? |
+| 03 | Member 2 (Gaby) | Line by borough | RQ3: How did serious crashes change year to year in each borough, and which boroughs rose most? |
+| 04 | Member 2 (Gaby) | Heatmap, borough x year | RQ4: In which borough and year do serious crashes injure the most people per crash? |
+| 05 | Member 3 (Nayer) | Box plot by housing tier | RQ5: Do ZIPs that received the most new affordable housing face more serious and fatal crashes than ZIPs that received none? |
+| 06 | Member 3 (Nayer) | Map | RQ6: Is new affordable housing being completed in ZIPs where serious crashes are rising or falling? |
+| 07 | Member 4 (Ahmed Hossam) | Heatmap, borough x year | RQ7: In which boroughs and years were serious crashes highest relative to affordable housing completed? |
+| 08 | Member 4 (Ahmed Hossam) | Bar chart | RQ8: Are serious crashes more likely to be fatal in ZIP-years dominated by new construction than by preservation or no completions? |
+| 09 | Member 5 (Tony) | Horizontal bar, top 10 ZIPs | RQ9: Which ZIPs had the most serious crashes relative to the affordable housing they completed? |
+| 10 | Member 5 (Tony) | Scatter with trend line | RQ10: In ZIPs where a larger share of new units is deeply affordable, are serious crashes more injurious? |
+| 11 | Member 6 (Yasseen) | Spearman correlation heatmap | RQ11: Which housing-production indicators are most strongly associated with serious-crash outcomes? |
+| 12 | Member 6 (Yasseen) | Treemap, borough x housing category | RQ12: How do serious-crash burden and fatal-crash share vary by borough and dominant housing activity? |
 
 **Selected findings (2022-2025):** across ZIPs, units completed and serious crashes are strongly associated (Spearman about 0.71, chart 01). Brooklyn holds four of the ten highest crash rates per 100 completed units (chart 09, for example ZIP 11229 at about 79). The deeply affordable share has only a weak link to injuries per crash (Spearman about 0.14, n = 122 ZIPs, chart 10). Across ZIP-years the strongest pair is projects completed versus serious crashes (Spearman about 0.62, n = 748, chart 11). All of these are associations, not evidence of cause.
 
@@ -113,12 +113,12 @@ Any other host that runs a Python web service (for example Render or Heroku) can
 
 | Member | Data and notebook contribution | Website contribution | Research questions and charts |
 |---|---|---|---|
-| 1 | Housing EDA, cleaning, `housing_clean.csv` | none | RQ1, RQ2; charts 01-02 |
-| 2 | Transport sampling, EDA, cleaning, `transport_clean.csv` | none | RQ3, RQ4; charts 03-04 |
-| 3 | ZIP x year integration, post-integration cleaning, `integrated_zip_year.csv`, data dictionary | none | RQ5, RQ6; charts 05-06 |
-| 4 | none | Dash app, data loading, filters, Generate Report, chart loader | RQ7, RQ8; charts 07-08 |
-| 5 | Story text, search-parser tests, prompt log | Search mode (`search_parser.py`), story section (`story_section.py`), CSS, deployment | RQ9, RQ10; charts 09-10 |
-| 6 | Repository and notebook structure, validation (`member6_validation.py`, `reports/`), tests, README, QA, prompt log | Chart integration support | RQ11, RQ12; charts 11-12 |
+| 1 - Ahmad Tarek | Housing EDA, cleaning, `housing_clean.csv` | none | RQ1, RQ2; charts 01-02 |
+| 2 - Gaby | Transport sampling, EDA, cleaning, `transport_clean.csv` | none | RQ3, RQ4; charts 03-04 |
+| 3 - Nayer | ZIP x year integration, post-integration cleaning, `integrated_zip_year.csv`, data dictionary | none | RQ5, RQ6; charts 05-06 |
+| 4 - Ahmed Hossam | none | Dash app, data loading, filters, Generate Report, chart loader | RQ7, RQ8; charts 07-08 |
+| 5 - Tony | Story text, search-parser tests, prompt log | Search mode (`search_parser.py`), story section (`story_section.py`), CSS, deployment | RQ9, RQ10; charts 09-10 |
+| 6 - Yasseen | Repository and notebook structure, validation (`member6_validation.py`, `reports/`), tests, README, QA, prompt log | Chart integration support | RQ11, RQ12; charts 11-12 |
 
 ## Git workflow
 
