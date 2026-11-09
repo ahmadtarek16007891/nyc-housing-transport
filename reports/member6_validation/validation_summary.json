@@ -1,0 +1,28 @@
+{
+  "integrated_rows": 748,
+  "zip_codes": 187,
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "boroughs": [
+    "Bronx",
+    "Brooklyn",
+    "Manhattan",
+    "Queens",
+    "Staten Island"
+  ],
+  "total_completed_units": 142480,
+  "serious_crashes_with_zip": 10563,
+  "fatal_crashes": 612,
+  "fatalities": 639,
+  "null_rates": {
+    "crashes_per_100_units": 47.73,
+    "deeply_affordable_share": 47.73,
+    "injuries_per_crash": 4.55
+  },
+  "housing_clean_rows": 7593,
+  "transport_clean_rows": 13301
+}

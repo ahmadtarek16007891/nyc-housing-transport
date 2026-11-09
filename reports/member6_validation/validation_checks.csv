@@ -1,0 +1,20 @@
+check,passed,detail
+Integrated schema contains all required fields,True,Missing: none
+Borough labels use the agreed five names,True,"Found: ['Bronx', 'Brooklyn', 'Manhattan', 'Queens', 'Staten Island']"
+Integrated data covers the four complete years 2022-2025,True,"Found: [np.int64(2022), np.int64(2023), np.int64(2024), np.int64(2025)]"
+One row per ZIP-year with no duplicate keys,True,Rows=748; ZIPs=187; years=4; expected grid=748
+ZIP codes are valid five-character NYC ZIP strings,True,Missing/invalid ZIPs: 0
+Count metrics contain no negative values,True,"Negative values by column: {'buildings_completed': 0, 'projects_completed': 0, 'total_units': 0, 'new_construction_units': 0, 'preservation_units': 0, 'deeply_affordable_units': 0, 'low_income_units': 0, 'units_started': 0, 'crash_count': 0, 'fatal_crashes': 0, 'fatalities': 0, 'severe_injuries': 0, 'non_severe_injuries': 0}"
+ZIP centroids fall within the NYC coordinate bounds,True,Latitude range=40.51206 to 40.90207; longitude range=-74.24006 to -73.70274
+New-construction and preservation units sum to total units,True,Maximum absolute difference=0
+Fatal crash and fatality counts are logically consistent,True,Requires fatal_crashes <= crash_count and fatalities >= fatal_crashes for every ZIP-year.
+Housing category matches the documented dominant-activity rule,True,Zero units -> No completions; otherwise the larger unit type determines the label.
+Transportation category matches the documented severity rule,True,Fatal crash -> Fatal crash recorded; other serious crashes -> Serious injuries only; otherwise none.
+crashes_per_100_units reproduces from its numerator and denominator,True,"Recomputed as crash_count / total_units * 100, rounded to two decimals."
+deeply_affordable_share reproduces from its numerator and denominator,True,"Recomputed as deeply_affordable_units / total_units, rounded to three decimals."
+injuries_per_crash reproduces from its numerator and denominator,True,"Recomputed as (severe + non-severe injuries) / crash_count, rounded to two decimals."
+Zero denominators remain undefined in derived rates,True,"Rate values are missing when their denominator is zero, not falsely filled with zero."
+Housing units are conserved through ZIP-year aggregation,True,"Source completed buildings: 2,241; source units=142,480; integrated units=142,480."
+SIRTA crash records with ZIPs are conserved through ZIP-year aggregation,True,"Source crashes with valid ZIP: 10,563; integrated crash_count: 10,563."
+Integrated ZIP universe matches the union of both source datasets,True,Source union=187; integrated ZIPs=187.
+Integration provenance labels use the documented values,True,"Found: ['both', 'housing only', 'neither (grid fill)', 'transport only']"

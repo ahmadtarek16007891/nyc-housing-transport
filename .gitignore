@@ -1,6 +1,56 @@
-.venv/
+# ==============================
+# Python
+# ==============================
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Testing
+# ==============================
 .pytest_cache/
-.DS_Store
+.coverage
+htmlcov/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
 .env
+.env.*
+!.env.example
+
+# ==============================
+# Raw Data (Large Original Downloads)
+# ==============================
+data/raw/*
+!data/raw/.gitkeep
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs
+# ==============================
+*.log
